@@ -9,3 +9,4 @@ script:
 - python3 bugs.py check
 - python3 bugs.py export_database
 - flake8 bugs.py
+- pylint bugs.py
