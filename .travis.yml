@@ -5,3 +5,4 @@ branches:
   - master
 script:
 - python3 bugs.py check
+- python3 bugs.py export_database
