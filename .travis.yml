@@ -6,7 +6,7 @@ branches:
 install:
 - pip3 install -r requirements.txt
 script:
-- python3 bugs.py check
-- python3 bugs.py export_database
+- ./bugs.py check
+- ./bugs.py export_database
 - flake8 bugs.py
 - pylint bugs.py
