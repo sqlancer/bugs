@@ -4035,19 +4035,6 @@
         "title": "Query with negative LIMIT results in an internal error \"node lookup-join with MaxCost added to the memo\""
     },
     {
-        "date": "17/03/2020",
-        "dbms": "cockroachdb",
-        "links": {
-            "bugreport": "https://github.com/cockroachdb/cockroach/issues/46196",
-            "fix": "https://github.com/cockroachdb/cockroach/pull/46649"
-        },
-        "oracle": "notable",
-        "reporter": "Manuel Rigger",
-        "status": "fixed",
-        "test": "SELECT MAX(t0.c0) FROM (VALUES (NULL), (NULL)) t0(c0); -- expected: {NULL}, actual: {NULL, NULL}",
-        "title": "VALUES table expression malfunctions with MAX"
-    },
-    {
         "date": "21/03/2020",
         "dbms": "cockroachdb",
         "links": {
