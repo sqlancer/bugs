@@ -26,7 +26,8 @@ def check():
 
 def format_json():
     """Consistently formats the JSON file."""
-    formatted_content = json.dumps(parsed_content, indent=4) + '\n'
+    formatted_content = json.dumps(parsed_content, indent=4,
+                                   sort_keys=True) + '\n'
     f.close()
     f_w = open("bugs.json", "w")
     f_w.write(formatted_content)
