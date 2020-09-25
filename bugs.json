@@ -1633,7 +1633,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=dbaf8a6820",
             "fix": "https://www.sqlite.org/src/info/7f5168a76a400fc2"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1646,7 +1646,7 @@
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=51f5b6e427"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0 (c0);\nINSERT INTO t0(c0) VALUES (-9223372036854775808);\nSELECT FALSE AND ABS(t0.c0) FROM t0; -- unexpected: integer overflow",
@@ -1659,7 +1659,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a6408d42b9",
             "fix": "https://www.sqlite.org/src/info/45ff2b1f2693bb02"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1673,7 +1673,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=fba33c8b1d",
             "fix": "https://www.sqlite.org/src/info/057fb8b1809b8b9c"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1687,7 +1687,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f8f472cbc7",
             "fix": "https://www.sqlite.org/src/info/dd66134817ecbda0"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1715,7 +1715,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=57af00b664",
             "fix": "https://www.sqlite.org/src/info/0658c16e311393c8"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1729,7 +1729,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=2841e99d10",
             "fix": "https://www.sqlite.org/src/info/88833a9c2849c959"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1743,7 +1743,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=29f635e0af",
             "fix": "https://www.sqlite.org/src/info/6e7b4527d32cc1be"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1757,7 +1757,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=767a8cbc6d",
             "fix": "https://www.sqlite.org/src/info/5351e920f489562f"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1771,7 +1771,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a7debbe0ad",
             "fix": "https://www.sqlite.org/src/info/b9ec72203c19c2b9"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1784,7 +1784,7 @@
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c4130c33be"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0(c0);\nINSERT INTO t0(c0) VALUES (0.0), (0);\nCREATE VIEW v0(c0) AS SELECT DISTINCT c0 FROM t0;\nSELECT * FROM v0; -- expected: 0.0, 0, actual: 0.0",
@@ -1797,7 +1797,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=18458b1ad6",
             "fix": "https://www.sqlite.org/src/info/36997c4ade2ef3a2"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1811,7 +1811,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0f0428096f",
             "fix": "https://www.sqlite.org/src/info/6fe0367f9a337b7c"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1825,7 +1825,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=587791f926",
             "fix": "https://www.sqlite.org/src/info/3fb40f518086c1e8"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1849,7 +1849,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b2d4edaffd",
             "fix": "https://www.sqlite.org/src/info/3cde82c86b963fa7"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1982,7 +1982,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a976c487d1",
             "fix": "https://www.sqlite.org/src/info/eb7ed90b8a65748f"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1996,7 +1996,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c31034044b",
             "fix": "https://www.sqlite.org/src/info/7833feecfe745e23"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -2093,7 +2093,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b47e3627ec",
             "fix": "https://www.sqlite.org/src/info/90f7c477354d67d2"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -2107,7 +2107,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b47e3627ec",
             "fix": "https://www.sqlite.org/src/info/c7da1c01f1f239e6"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -2121,7 +2121,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=6ef984af89",
             "fix": "https://www.sqlite.org/src/info/5c118617cf08e17a"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -2135,7 +2135,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=135c9da751",
             "fix": "https://www.sqlite.org/src/info/978b2d20cf95d0b7"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2177,7 +2177,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c1e19e1204",
             "fix": "https://www.sqlite.org/src/info/fbac0c65d8464b12"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -2304,7 +2304,7 @@
             "bugtracker": "https://sqlite.org/src/tktview?name=a9efb42811",
             "fix": "https://sqlite.org/src/info/17e9f65814264de9"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -2318,7 +2318,7 @@
             "bugtracker": "https://sqlite.org/src/tktview?name=623eff57e7",
             "fix": "https://sqlite.org/src/info/3be19e1151af1850"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2346,7 +2346,7 @@
             "bugtracker": "https://sqlite.org/src/tktview?name=02aa2bd02f",
             "fix": "https://sqlite.org/src/info/ea20068e6d97c934"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2359,7 +2359,7 @@
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=1cda8f4b54"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "closed (not a bug)",
@@ -2387,7 +2387,7 @@
             "bugtracker": "https://sqlite.org/src/tktview?name=ce22a07731",
             "fix": "https://sqlite.org/src/info/36c11ad51fe9ab1b"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2443,7 +2443,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=7e59041f9c",
             "fix": "https://www.sqlite.org/src/info/b59f94e4da9b1653"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -2545,7 +2545,7 @@
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21029"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (1);\nSELECT (c0 > (NULL <=> 0)) IS NULL FROM t0; -- expected: 0, actual: 1",
@@ -2557,7 +2557,7 @@
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21032"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (1);\nCREATE INDEX i0 ON t0(c0);\nSELECT * FROM t0 WHERE 0.5 = c0; -- unexpected: row is fetched",
@@ -2569,7 +2569,7 @@
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21034"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (1);\nSELECT * FROM t0 WHERE GREATEST(c0, NULL); -- unexpected: row is fetched",
@@ -2606,7 +2606,7 @@
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21065",
             "fix": "https://github.com/mariadb/server/commit/fc860d3fa3bc854fbe6aab9179d7a4aaf6eb9edf"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT UNIQUE);\nINSERT INTO t0 VALUES (NULL), (NULL), (NULL), (NULL), (1), (0);\nSELECT * FROM t0 WHERE c0 < '\\n2'; -- expected rows with c0=0 and c0=1, actual: only row with c0=0 is fetched",
@@ -2618,7 +2618,7 @@
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21076"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT NOT NULL, c1 CHAR UNIQUE);\nINSERT INTO t0 VALUES (0, 1);\nINSERT INTO t0 VALUES (0, '');\nSELECT SUM(a.t) FROM (SELECT (c1 RLIKE c1) = (c0 IS NULL) as t FROM t0) as a; -- expected: 1, actual: 0",
@@ -2643,7 +2643,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=7f39060a24",
             "fix": "https://www.sqlite.org/src/info/4066a34da7bcdcec"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2669,7 +2669,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=a55ab6d97d",
             "fix": "https://www.sqlite.org/src/info/f898d04cf272ef01"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2683,7 +2683,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=30e2c183b6",
             "fix": "https://www.sqlite.org/src/info/d43e0efb9642037d"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -2697,7 +2697,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=9fe487ba3c",
             "fix": "https://www.sqlite.org/src/info/7ae8c0d52f6aa7f2"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -2711,7 +2711,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=f096d191b6",
             "fix": "https://www.sqlite.org/src/info/b7810062ec2489e1"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -2725,7 +2725,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=aa573a787b",
             "fix": "https://www.sqlite.org/src/info/32772dfd50b602c0"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -2740,7 +2740,7 @@
             "docs fix": "https://www.sqlite.org/docsrc/info/8199b59a39c017c7",
             "fix": "https://www.sqlite.org/src/info/97fb5a72f91a44d5"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -2754,7 +2754,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=8bf76328ac",
             "docs fix": "https://www.sqlite.org/docsrc/info/c3ab325994a8f495"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Cosmetic",
         "status": "fixed (in documentation)",
@@ -2875,7 +2875,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=3b84b42943",
             "fix": "https://www.sqlite.org/src/tktview?name=3b84b42943"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -2915,7 +2915,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=e0a8120553",
             "fix": "https://sqlite.org/src/info/728ad39e3bd07a25"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -3445,7 +3445,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=727074e2ae",
             "fix": "https://www.sqlite.org/src/info/74ef6f2b6d9f50ff"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -3459,7 +3459,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=74a4c3860c",
             "fix": "https://www.sqlite.org/src/info/cfff5cb2279088aa"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -3472,7 +3472,7 @@
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=a3713a5fca"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE VIRTUAL TABLE stat USING dbstat;\nSELECT * FROM stat WHERE stat.aggregate = 1; -- unexpected: fetches one record",
@@ -3485,7 +3485,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=82ac75ba00",
             "fix": "https://www.sqlite.org/src/info/6db1c3498f6bfa01"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -3499,7 +3499,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=9eda2697f5",
             "fix": "https://www.sqlite.org/src/info/1c76f1d8ec0937a2"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -3512,7 +3512,7 @@
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44123"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 STRING UNIQUE);\nINSERT INTO t0 (c0) VALUES ('\\a');\nSELECT * FROM t0 WHERE c0 LIKE '\\a'; -- unexpected: row is fetched",
@@ -3525,7 +3525,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44132",
             "fix": "https://github.com/cockroachdb/cockroach/issues/44132"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BOOL UNIQUE, c1 INT AS (NULL) STORED);\nINSERT INTO t0 (c0) VALUES (true);\nSELECT * FROM t0 WHERE c0; -- expected: row is fetched, actual: row is not fetched",
@@ -3603,7 +3603,7 @@
             "fix1": "https://github.com/cockroachdb/cockroach/pull/44500",
             "fix2": "https://github.com/cockroachdb/cockroach/pull/44668"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BOOL UNIQUE, c1 BOOL CHECK (true));\nINSERT INTO t0(c0) VALUES (true);\nSELECT * FROM t0 WHERE t0.c0 AND (false NOT BETWEEN SYMMETRIC t0.c0 AND NULL AND true); -- unexpected: row is fetched",
@@ -3629,7 +3629,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44203",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44307"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BOOL);\nINSERT INTO t0(c0) VALUES (false);\nCREATE VIEW v0(c0) AS SELECT c0 FROM t0 WHERE t0.c0 OFFSET NULL;\nSELECT * FROM v0 WHERE CURRENT_USER() != ''; -- unexpected: a row is fetched",
@@ -3642,7 +3642,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44207",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44219"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SET SESSION VECTORIZE=experimental_on;\nCREATE TABLE t1(c0 INT);\nCREATE TABLE t0(c0 INT UNIQUE);\nINSERT INTO t1(c0) VALUES (0);\nINSERT INTO t0(c0) VALUES (NULL), (NULL);\nSELECT * FROM t0, t1 WHERE t0.c0 IS NULL; -- expected: two rows are fetched, actual: one row is fetched",
@@ -3681,7 +3681,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44296",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44386"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT UNIQUE);\nCREATE VIEW v0(c0) AS SELECT DISTINCT t0.c0 FROM t0;\nINSERT INTO t0 (c0) VALUES (NULL), (NULL);\nSELECT * FROM v0 WHERE v0.c0 IS NULL; -- expected: {NULL}, actual: {NULL, NULL}",
@@ -3733,7 +3733,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44466",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45372"
         },
-        "oracle": "metamorphic",
+        "oracle": "NoREC",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT PRIMARY KEY, c1 BOOL, c2 INT UNIQUE);\nINSERT INTO t0(c0) VALUES (0);\nUPSERT INTO t0(c2, c0) VALUES (0, 0), (1, 0);\nSELECT * FROM t0; -- {0 | NULL | 1}",
