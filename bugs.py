@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """This script provides functionality to validate, manipulate, and
 transform the bugs.json file."""
 
