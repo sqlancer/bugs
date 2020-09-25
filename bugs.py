@@ -49,7 +49,8 @@ def export_database():
         SEVERITY STRING,
         URL_EMAIL STRING,
         URL_BUGTRACKER STRING,
-        URL_FIX STRING
+        URL_FIX STRING,
+        REPORTER STRING
     );
     """)
     cursor.execute("""
@@ -80,8 +81,9 @@ def export_database():
         severity = bug_entry.get('severity', None)
         links = bug_entry.get('links', {})
         cursor.execute("""INSERT INTO DBMS_BUGS (DBMS, ORACLE, STATUS, DATE, TEST,
-            TRIGGER_BUG_LINE, SEVERITY, URL_EMAIL, URL_BUGTRACKER, URL_FIX)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            TRIGGER_BUG_LINE, SEVERITY, URL_EMAIL, URL_BUGTRACKER, URL_FIX,
+            REPORTER)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                        (bug_entry['dbms'], bug_entry['oracle'],
                         bug_entry['status'],
                         bug_entry['date'],
@@ -90,7 +92,8 @@ def export_database():
                         severity,
                         links.get('email', None),
                         links.get('bugtracker', None),
-                        links.get('fix', None)))
+                        links.get('fix', None),
+                        bug_entry['reporter']))
         rid = cursor.execute('select last_insert_rowid();').fetchall()[0][0]
         seq = 0
         for statement in bug_entry['test'].split('\n'):
