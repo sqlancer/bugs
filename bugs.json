@@ -1,7 +1,7 @@
 [
     {
         "date": "28/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084283.html"
         },
@@ -14,7 +14,7 @@
     {
         "comment": "This bug was classified as \"severe\" and had existed since 2013.",
         "date": "28/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/3182d3879020ef3b2e6db56be2470a0266d3c773",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084293.html",
@@ -30,7 +30,7 @@
     {
         "comment": "The failing test case caused the SQLite developers to realize \"a defect in the design of SQLite, not a defect in the implementation.\" Seven options to address this were outlined. Since it was not very clear how to best address this, the quirk was documented in the documentation and a compile time option to omit the relevant pragma was introduced.",
         "date": "28/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/info/a340eef47b0cad5",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084322.html",
@@ -45,7 +45,7 @@
     },
     {
         "date": "30/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084324.html",
             "fix": "https://www.sqlite.org/src/tktview?name=ae0f637bdd"
@@ -59,7 +59,7 @@
     },
     {
         "date": "28/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a340eef47b",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084299.html"
@@ -73,7 +73,7 @@
     },
     {
         "date": "1/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/info/3be1295b264be2fa",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084326.html",
@@ -88,7 +88,7 @@
     },
     {
         "date": "1/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084334.html",
             "fix": "https://www.sqlite.org/src/timeline?c=b043a54c3de54b28"
@@ -102,7 +102,7 @@
     {
         "comment": "Note that this was not a bug in the code. Rather, the documentation was not very clear on this is.",
         "date": "2/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084347.html"
         },
@@ -114,7 +114,7 @@
     },
     {
         "date": "2/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084350.html",
             "fix": "https://www.sqlite.org/src/timeline?c=48889530a9de22fe"
@@ -127,7 +127,7 @@
     },
     {
         "date": "2/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084355.html",
             "fix": "https://www.sqlite.org/src/info/5a8a23ee5f60a31d"
@@ -141,7 +141,7 @@
     {
         "comment": "As described in one of the commit messages for this fix, addressing this bug required a \"big change\" in the code.",
         "date": "3/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084366.html",
             "fix": "https://www.sqlite.org/src/info/5a8a23ee5f60a31d"
@@ -154,7 +154,7 @@
     },
     {
         "date": "3/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084367.html",
             "fix": "https://www.sqlite.org/src/info/5a8a23ee5f60a31d"
@@ -168,7 +168,7 @@
     {
         "comment": "This issue was classified as \"severe\", was since 2013 in SQLite, and was a bug in the theorem prover.",
         "date": "4/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=5c6955204c",
             "email": "https://www.mail-archive.com/sqlite-users@mailinglists.sqlite.org/msg115136.html",
@@ -183,7 +183,7 @@
     },
     {
         "date": "5/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084409.html"
         },
@@ -195,7 +195,7 @@
     },
     {
         "date": "6/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084426.html",
             "fix": "https://sqlite.org/src/info/91f701d39852ef1ddb29"
@@ -209,7 +209,7 @@
     {
         "comment": "As described on the mailing list, this bug report exposed two bugs and required two different fixes.",
         "date": "7/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084439.html",
             "fix1": "https://www.sqlite.org/src/info/659c551dcc374a0d",
@@ -224,7 +224,7 @@
     {
         "comment": "The bug was classified as \"severe\" and existed in SQLite since 2013.",
         "date": "7/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=9cf6c9bb51",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084460.html",
@@ -239,7 +239,7 @@
     },
     {
         "date": "8/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084478.html",
             "fix": "https://www.sqlite.org/src/info/740201107ae802c1"
@@ -252,7 +252,7 @@
     },
     {
         "date": "9/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084480.html",
             "fix": "https://www.sqlite.org/src/info/ebe4845cd0ffb96b"
@@ -266,7 +266,7 @@
     {
         "comment": "This bug was classified as \"severe\" and existed in SQLite since 2015.",
         "date": "9/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/6c1d3febc00b22d457c7",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084483.html",
@@ -281,7 +281,7 @@
     },
     {
         "date": "10/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084497.html",
             "fix": "https://www.sqlite.org/src/info/db9acef14d492121"
@@ -295,7 +295,7 @@
     {
         "comment": "This bug was classified as \"critical\" and was in SQLite since 2013.",
         "date": "11/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview/80256748471a01",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084499.html",
@@ -310,7 +310,7 @@
     },
     {
         "date": "13/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084515.html"
         },
@@ -323,7 +323,7 @@
     {
         "comment": "The bug highlights a conceptual issue in SQLite and cannot be fixed without breaking backward compatibility. The issue received its own name, namely the \"WITHOUT ROWID DESC PRIMARY KEY UNIQUE constraint index anomaly\". Nevertheless, as stated in the bug report, it is unlikely that real-world applications are affected.",
         "date": "13/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=bba7b69f98",
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084528.html",
@@ -339,7 +339,7 @@
     {
         "comment": "This bug was introduced while fixing another bug that I had previously found.",
         "date": "14/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084539.html",
             "fix": "https://www.sqlite.org/src/info/bc7d2c1656396bb4"
@@ -352,7 +352,7 @@
     },
     {
         "date": "16/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=3c27b97e31",
             "fix": "https://www.sqlite.org/src/info/14c00b1016ba53ab"
@@ -367,7 +367,7 @@
     {
         "comment": "Although this was not recognized as a bug, the bug report resulted in a documentation update and change in the default options for SQLite's defensive configuration.",
         "date": "16/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f4ec250930",
             "fix": "https://www.sqlite.org/src/info/a0f5eb5c79cc33b7"
@@ -381,7 +381,7 @@
     },
     {
         "date": "18/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/info/787fa716be3a7f650c",
             "fix": "https://sqlite.org/src/info/778b1224a318d013"
@@ -396,7 +396,7 @@
     {
         "comment": "This bug report resulted in a change of the accepted SQL dialect, disallowing strings in double quotes when creating indexes.",
         "date": "19/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/9b78184be266fd7084e9e8038ad631a21b37eb9e",
             "fix1": "https://www.sqlite.org/src/info/1685610e",
@@ -412,7 +412,7 @@
     {
         "comment": "This bug uncovered that the compiler somtimes confuses x IS TRUE with x IS FALSE, and the other way around.",
         "date": "19/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d3e7f2ba5b",
             "fix": "https://www.sqlite.org/src/info/99eba69b3a64741c"
@@ -426,7 +426,7 @@
     },
     {
         "date": "21/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/b5ca442af9fadf5eff5b2bf64839516ab82cfc3d",
             "fix": "https://www.sqlite.org/src/info/b8071d10cba8f6c1"
@@ -440,7 +440,7 @@
     },
     {
         "date": "25/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=4c2d7639f0",
             "fix": "https://www.sqlite.org/src/info/67a68af5578f08d2"
@@ -454,7 +454,7 @@
     },
     {
         "date": "25/5/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=e8bedb2a18",
             "fix": "https://www.sqlite.org/src/info/67a68af5578f08d2"
@@ -468,7 +468,7 @@
     },
     {
         "date": "08/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/dd6bffbfb6e61db9ecc9ea833d586427961ccc9d",
             "fix": "https://www.sqlite.org/src/info/c0c90961b4fa1c11"
@@ -482,7 +482,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/fd76310a5e843e074a30ed98b859dd0be11d0276",
             "fix": "https://sqlite.org/src/info/567b13093956185b"
@@ -496,7 +496,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b1d8c79314",
             "fix": "https://sqlite.org/src/info/94b58ab059cba977"
@@ -510,7 +510,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=533010b8ca",
             "fix": "https://www.sqlite.org/src/info/71643deb"
@@ -524,7 +524,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=412bba9b22",
             "fix": "https://www.sqlite.org/src/info/57050162294efec9"
@@ -538,7 +538,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/d60b3cd7cb0bdff8ff39f76c9faf16ba2efa442f",
             "fix": "https://www.sqlite.org/docsrc/info/722f0828b3074e89"
@@ -552,7 +552,7 @@
     },
     {
         "date": "10/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/533010b8cacebe82533a8cd4e230fbb819565115",
             "fix": "https://www.sqlite.org/src/info/04bd5cb73287f926"
@@ -566,7 +566,7 @@
     },
     {
         "date": "11/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=1819598c09",
             "fix": "https://www.sqlite.org/docsrc/info/e0f700bb6c8142c5"
@@ -580,7 +580,7 @@
     },
     {
         "date": "11/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=57353f8243",
             "fix": "https://www.sqlite.org/src/info/0f748fe58bbbb7ce"
@@ -594,7 +594,7 @@
     },
     {
         "date": "11/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=afdc5a29dc",
             "fix": "https://www.sqlite.org/docsrc/info/7a51b32537ac7e95"
@@ -608,7 +608,7 @@
     },
     {
         "date": "11/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0c620df60b",
             "fix": "https://www.sqlite.org/src/info/614ecb0af4703884"
@@ -622,7 +622,7 @@
     },
     {
         "date": "12/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=4d01eda811",
             "fix": "https://www.sqlite.org/src/info/5c6146b56a75a94f"
@@ -637,7 +637,7 @@
     {
         "comment": "Opening this bug report also (indirectly) caused a discussion on the mailing list on how -0.0 should be printed by SQLite, with over 50 replies (see http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-June/084857.html).",
         "date": "12/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview/674385aeba91c774d47736f1aefd259b074dc5d3",
             "fix": "https://www.sqlite.org/src/info/491f0f9bbddb6302"
@@ -651,7 +651,7 @@
     },
     {
         "date": "12/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b148fa6105",
             "fix": "https://www.sqlite.org/docsrc/info/9f887f15e57978df"
@@ -665,7 +665,7 @@
     },
     {
         "date": "14/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ce8717f088",
             "fix": "https://www.sqlite.org/src/info/b4a9e09e60213ccf"
@@ -680,7 +680,7 @@
     {
         "comment": "This problem has existing in the RTRIM collating sequence since it was first introduced in 2008.",
         "date": "14/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f1580ba1b5",
             "fix": "https://www.sqlite.org/src/info/86fa0087cd1f5c79"
@@ -694,7 +694,7 @@
     },
     {
         "date": "15/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95820"
         },
@@ -706,7 +706,7 @@
     },
     {
         "date": "16/06/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=e1e07ef202",
             "fix": "https://www.sqlite.org/src/info/54110870487f7801"
@@ -720,7 +720,7 @@
     },
     {
         "date": "18/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95856"
         },
@@ -732,7 +732,7 @@
     },
     {
         "date": "18/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95866"
         },
@@ -744,7 +744,7 @@
     },
     {
         "date": "20/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95889"
         },
@@ -756,7 +756,7 @@
     },
     {
         "date": "20/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95894"
         },
@@ -768,7 +768,7 @@
     },
     {
         "date": "20/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "false_positive": "yes",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95897"
@@ -782,7 +782,7 @@
     {
         "comment": "We found this bug on the latest public version of MySQL. The bug report was closed, since the bug had already been fixed internally.",
         "date": "20/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95900"
@@ -795,7 +795,7 @@
     },
     {
         "date": "21/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95908"
@@ -809,7 +809,7 @@
     {
         "comment": "The bug was fixed in 8.0.17, but not necessarily based on our bug report, since it was not referenced.",
         "date": "22/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95926"
@@ -822,7 +822,7 @@
     },
     {
         "date": "22/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95927"
         },
@@ -834,7 +834,7 @@
     },
     {
         "date": "22/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.20",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95929"
@@ -849,7 +849,7 @@
         "comment": "This bug report revealed a security vulnerability that was fixed in a Critical Patch Update (CVSSv3.0 Base Score: 4.9)",
         "cve": "CVE-2019-2879",
         "date": "23/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "oracle": "crash",
         "reporter": "Manuel Rigger",
@@ -859,7 +859,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95937"
         },
@@ -871,7 +871,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95938"
@@ -884,7 +884,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95942"
@@ -897,7 +897,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.18",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95954"
@@ -910,7 +910,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95957"
         },
@@ -922,7 +922,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.17",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95958"
@@ -935,7 +935,7 @@
     },
     {
         "date": "24/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95960"
         },
@@ -947,7 +947,7 @@
     },
     {
         "date": "25/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95964"
         },
@@ -959,7 +959,7 @@
     },
     {
         "date": "25/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.18",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95969"
@@ -972,7 +972,7 @@
     },
     {
         "date": "25/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95975"
         },
@@ -984,7 +984,7 @@
     },
     {
         "date": "25/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95983"
         },
@@ -996,7 +996,7 @@
     },
     {
         "date": "25/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95985"
         },
@@ -1008,7 +1008,7 @@
     },
     {
         "date": "26/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95987"
         },
@@ -1020,7 +1020,7 @@
     },
     {
         "date": "26/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95997"
         },
@@ -1032,7 +1032,7 @@
     },
     {
         "date": "26/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=96010"
         },
@@ -1044,7 +1044,7 @@
     },
     {
         "date": "26/06/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fix_version": "8.0.18",
         "links": {
             "email": "https://bugs.mysql.com/bug.php?id=96012"
@@ -1057,7 +1057,7 @@
     },
     {
         "date": "29/06/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA6pL%2B7Xm_NXHLenxffe3tCr3gTamVdr7zPjcWqW0RFM-A%40mail.gmail.com"
         },
@@ -1069,7 +1069,7 @@
     },
     {
         "date": "02/06/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4XYhc-qyCgJqwwgMGZDWAyeH821oa5oMzm_HEifZ4BeA%40mail.gmail.com"
         },
@@ -1081,7 +1081,7 @@
     },
     {
         "date": "02/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/a5be4062f7bf2ae9487c5a31ee337a56425cdc84"
@@ -1095,7 +1095,7 @@
     {
         "comment": "This bug was reproduced to occur in \"v11 and quite a large number of branches before that\". The bug was fixed \"somewhat accidentally\" for v12, but backporting the relevant patch was declared to be too invasive.",
         "date": "02/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4CV21mUfwjQj3va7MWvqB2EAdJT31%3Duf_yArBRVzQjYw%40mail.gmail.com"
         },
@@ -1107,7 +1107,7 @@
     },
     {
         "date": "4/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com",
             "email 2": "https://www.postgresql.org/message-id/31920.1562526703%40sss.pgh.pa.us",
@@ -1122,7 +1122,7 @@
     {
         "comment": "A fix for this seemed to be non-trivial and it was put on the \"back burner until we have some consensus how to proceed on that\".",
         "date": "4/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4hkFSV_Y%3DsW_vNcYgKFEoq0WL5GtrBWEHUZnCqSqjhAA%40mail.gmail.com"
         },
@@ -1134,7 +1134,7 @@
     },
     {
         "date": "07/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7VT2YvyRz1FWXtr%2Bp9ayUxGEqB8xJOsJT%2BsywXVKVvGw%40mail.gmail.com"
         },
@@ -1146,7 +1146,7 @@
     },
     {
         "date": "07/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7mwhq7Xu9ZsaYOZ6aeodMiomKX0aMm8bbtYE%3DSyqSs_Q%40mail.gmail.com"
         },
@@ -1158,7 +1158,7 @@
     },
     {
         "date": "10/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA6AD9OLziFW%2Bio1HgN8q_XH0o1Y5RyufXYO5%3D0fnhG5zQ%40mail.gmail.com"
         },
@@ -1171,7 +1171,7 @@
     {
         "comment": "Tom Lane commented this find with \"nifty\". :-)",
         "date": "10/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/d3751adcf14d3baacc9738ee9ce869dc1c31d7ad"
@@ -1185,7 +1185,7 @@
     {
         "comment": "Later on this day, another bug report was opened on this: https://www.postgresql.org/message-id/flat/20190711150822.z7cirna2fjtrfcnu%40development#d05c216fb9f3d27e3b69520666b043c6. Although we reported the bug first, the second bug reporter, rather than us, was credited. Although we asked for a clarification on the mailing list (see https://www.postgresql.org/message-id/CA%2Bu7OA6RsonbT1S06TaO99QDL2H8zS-N2jO%3DwSuqAOJLX5yQSg%40mail.gmail.com), we did not receive any response.",
         "date": "10/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com"
         },
@@ -1199,7 +1199,7 @@
     {
         "comment": "We received a response that this had already been fixed in commit 2322456.",
         "date": "10/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
@@ -1210,7 +1210,7 @@
     {
         "comment": "We received a response that this had already been fixed in commit 2322456.",
         "date": "11/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
@@ -1220,7 +1220,7 @@
     },
     {
         "date": "14/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA40Fe9%3DA3wQ2PHWy8VZg8%3DGpD6dxQXeXVDx6HAhRSPeRA%40mail.gmail.com"
         },
@@ -1233,7 +1233,7 @@
     },
     {
         "date": "15/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4XKjVv86MTUHZYzzdQAgPOPJDSuA5HrD8%2BxkNQsnAsAQ%40mail.gmail.com"
         },
@@ -1246,7 +1246,7 @@
     },
     {
         "date": "16/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA6zYX7qfkGGDfqeFwuh6HbD4B-0fmOfx13Jm4xsp3s%3D-Q%40mail.gmail.com"
         },
@@ -1259,7 +1259,7 @@
     },
     {
         "date": "17/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/a904abe2e284f570168839e52e18ef0b7f26179d"
@@ -1273,7 +1273,7 @@
     },
     {
         "date": "23/07/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=96294"
         },
@@ -1286,7 +1286,7 @@
     },
     {
         "date": "23/07/2019",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=96295"
         },
@@ -1299,7 +1299,7 @@
     },
     {
         "date": "24/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "bugtracker": "https://www.postgresql.org/message-id/CA%2Bu7OA69sgyCE0VhEpgZLBkR4X0frA2%3Dar8brntoH1vcvi-%2BWA%40mail.gmail.com"
         },
@@ -1311,7 +1311,7 @@
     },
     {
         "date": "24/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "bugtracker": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA6RmQLwvXGxx0nGt3T79Ka5MkOJs4_qcdx6X5c-rR_yNg%40mail.gmail.com"
         },
@@ -1323,7 +1323,7 @@
     },
     {
         "date": "24/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA6Zs6bZmuakbLv4%3D7VBOYpBsyswpb7A3hN%3Dn%2BKO0_z0pQ%40mail.gmail.com"
         },
@@ -1335,7 +1335,7 @@
     },
     {
         "date": "27/07/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA4qogDv9rz1HAb-ADxttXYPqQdUdPY_yd4kCzywNxRQXA%40mail.gmail.com"
         },
@@ -1347,7 +1347,7 @@
     },
     {
         "date": "29/07/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=18ab5da2c0"
         },
@@ -1360,7 +1360,7 @@
     },
     {
         "date": "29/07/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ba2f4585cf",
             "fix": "https://www.sqlite.org/src/info/2b221bb15fd2b9f6"
@@ -1374,7 +1374,7 @@
     },
     {
         "date": "29/07/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ccbe5759fb",
             "fix": "https://www.sqlite.org/src/info/6ac0f822450b26c7"
@@ -1388,7 +1388,7 @@
     },
     {
         "date": "30/07/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ced41c7c7d",
             "fix": "https://www.sqlite.org/src/info/a871d69c6de65038"
@@ -1402,7 +1402,7 @@
     },
     {
         "date": "02/07/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=41866dc373",
             "fix": "https://www.sqlite.org/src/info/faaaae4940b5f4f7"
@@ -1417,7 +1417,7 @@
     {
         "comment": "This bug was fixed 11 years after it was introduced.",
         "date": "03/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=71e183cab6",
             "fix": "https://www.sqlite.org/src/info/d465c3ee"
@@ -1431,7 +1431,7 @@
     },
     {
         "date": "05/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d52a29a9e6",
             "fix": "https://sqlite.org/docsrc/info/07b7749da88d54e5"
@@ -1445,7 +1445,7 @@
     },
     {
         "date": "05/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=61c853857f",
             "fix1": "https://www.sqlite.org/src/info/09cd0c0c6e6c963e",
@@ -1461,7 +1461,7 @@
     },
     {
         "date": "06/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0a5e2c1dcb",
             "fix": "https://www.sqlite.org/src/info/17b3d2218c02a400"
@@ -1475,7 +1475,7 @@
     },
     {
         "date": "07/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f8a7060ece",
             "fix": "https://www.sqlite.org/src/info/94085fb3"
@@ -1489,7 +1489,7 @@
     },
     {
         "date": "10/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=9080b6227f",
             "fix": "https://www.sqlite.org/src/info/da01ba4fa47c6508"
@@ -1503,7 +1503,7 @@
     },
     {
         "date": "14/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=17db54d744"
         },
@@ -1516,7 +1516,7 @@
     },
     {
         "date": "15/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=256741a16b",
             "fix": "https://www.sqlite.org/src/info/4f5b2d938194fab7"
@@ -1530,7 +1530,7 @@
     },
     {
         "date": "17/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=6710d2f7a1",
             "fix": "https://www.sqlite.org/src/info/500c9152daaf11cf"
@@ -1544,7 +1544,7 @@
     },
     {
         "date": "17/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c7a1171907",
             "fix": "https://www.sqlite.org/src/info/43e8b143"
@@ -1558,7 +1558,7 @@
     },
     {
         "date": "20/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f043b1130b",
             "fix": "https://www.sqlite.org/src/info/511da081"
@@ -1572,7 +1572,7 @@
     },
     {
         "date": "21/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b86894020e",
             "fix": "https://www.sqlite.org/src/info/d02490a2"
@@ -1586,7 +1586,7 @@
     },
     {
         "date": "22/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d9f584e936",
             "fix": "https://www.sqlite.org/src/info/81b9f0f55042777b"
@@ -1600,7 +1600,7 @@
     },
     {
         "date": "22/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ac184eb571",
             "fix": "https://www.sqlite.org/src/info/e62eddbb048cbc2c"
@@ -1614,7 +1614,7 @@
     },
     {
         "date": "22/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=7e07a3dbf5",
             "fix": "https://www.sqlite.org/src/info/44578865fa7baf97"
@@ -1628,7 +1628,7 @@
     },
     {
         "date": "27/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=dbaf8a6820",
             "fix": "https://www.sqlite.org/src/info/7f5168a76a400fc2"
@@ -1642,7 +1642,7 @@
     },
     {
         "date": "28/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=51f5b6e427"
         },
@@ -1654,7 +1654,7 @@
     },
     {
         "date": "30/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a6408d42b9",
             "fix": "https://www.sqlite.org/src/info/45ff2b1f2693bb02"
@@ -1668,7 +1668,7 @@
     },
     {
         "date": "30/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=fba33c8b1d",
             "fix": "https://www.sqlite.org/src/info/057fb8b1809b8b9c"
@@ -1682,7 +1682,7 @@
     },
     {
         "date": "30/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f8f472cbc7",
             "fix": "https://www.sqlite.org/src/info/dd66134817ecbda0"
@@ -1696,7 +1696,7 @@
     },
     {
         "date": "30/08/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=5a3dba8104",
             "fix": "https://www.sqlite.org/src/info/67381dadede98a55"
@@ -1710,7 +1710,7 @@
     },
     {
         "date": "02/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=57af00b664",
             "fix": "https://www.sqlite.org/src/info/0658c16e311393c8"
@@ -1724,7 +1724,7 @@
     },
     {
         "date": "02/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=2841e99d10",
             "fix": "https://www.sqlite.org/src/info/88833a9c2849c959"
@@ -1738,7 +1738,7 @@
     },
     {
         "date": "03/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=29f635e0af",
             "fix": "https://www.sqlite.org/src/info/6e7b4527d32cc1be"
@@ -1752,7 +1752,7 @@
     },
     {
         "date": "03/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=767a8cbc6d",
             "fix": "https://www.sqlite.org/src/info/5351e920f489562f"
@@ -1766,7 +1766,7 @@
     },
     {
         "date": "09/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a7debbe0ad",
             "fix": "https://www.sqlite.org/src/info/b9ec72203c19c2b9"
@@ -1780,7 +1780,7 @@
     },
     {
         "date": "10/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c4130c33be"
         },
@@ -1792,7 +1792,7 @@
     },
     {
         "date": "11/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=18458b1ad6",
             "fix": "https://www.sqlite.org/src/info/36997c4ade2ef3a2"
@@ -1806,7 +1806,7 @@
     },
     {
         "date": "16/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0f0428096f",
             "fix": "https://www.sqlite.org/src/info/6fe0367f9a337b7c"
@@ -1820,7 +1820,7 @@
     },
     {
         "date": "17/09/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=587791f926",
             "fix": "https://www.sqlite.org/src/info/3fb40f518086c1e8"
@@ -1835,7 +1835,7 @@
     {
         "comment": "We reported this bug on the security mailing list where it was stated that \"next week it'd have been a security issue [since a new PostgreSQL version would have been released], perhaps, but since v12 isn't formally released yet I don't think we need to treat it as one.",
         "date": "24/09/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "fixed",
@@ -1844,7 +1844,7 @@
     },
     {
         "date": "07/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b2d4edaffd",
             "fix": "https://www.sqlite.org/src/info/3cde82c86b963fa7"
@@ -1859,7 +1859,7 @@
     {
         "comment": "After we reported this bug, a test case for the same bug was found using a fuzzer and reported on the SQLite mailing list",
         "date": "07/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=8fe768e9c9",
             "fix": "https://www.sqlite.org/src/info/31e85fbbc4cfd09a"
@@ -1873,7 +1873,7 @@
     },
     {
         "date": "07/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=265e935b26",
             "fix": "https://www.sqlite.org/src/info/8ab0aebdb3c2d6fb"
@@ -1887,7 +1887,7 @@
     },
     {
         "date": "07/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=e258f008ce",
             "fix": "https://www.sqlite.org/src/info/238e0835714696ab"
@@ -1901,7 +1901,7 @@
     },
     {
         "date": "01/10/2019",
-        "dbms": "tdengine",
+        "dbms": "TDEngine",
         "links": {
             "bugtracker": "https://github.com/taosdata/TDengine/issues/586"
         },
@@ -1913,7 +1913,7 @@
     },
     {
         "date": "02/10/2019",
-        "dbms": "tdengine",
+        "dbms": "TDEngine",
         "links": {
             "bugtracker": "https://github.com/taosdata/TDengine/issues/589"
         },
@@ -1925,7 +1925,7 @@
     },
     {
         "date": "03/10/2019",
-        "dbms": "tdengine",
+        "dbms": "TDEngine",
         "links": {
             "bugtracker": "https://github.com/taosdata/TDengine/issues/590"
         },
@@ -1937,7 +1937,7 @@
     },
     {
         "date": "03/10/2019",
-        "dbms": "tdengine",
+        "dbms": "TDEngine",
         "links": {
             "bugtracker": "https://github.com/taosdata/TDengine/issues/591"
         },
@@ -1949,7 +1949,7 @@
     },
     {
         "date": "09/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=81a7f7b9e2",
             "fix": "https://www.sqlite.org/src/info/75775c5ab44e497c"
@@ -1963,7 +1963,7 @@
     },
     {
         "date": "09/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d392017c8e",
             "fix": "https://www.sqlite.org/src/info/86e497209217abb7"
@@ -1977,7 +1977,7 @@
     },
     {
         "date": "09/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a976c487d1",
             "fix": "https://www.sqlite.org/src/info/eb7ed90b8a65748f"
@@ -1991,7 +1991,7 @@
     },
     {
         "date": "10/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c31034044b",
             "fix": "https://www.sqlite.org/src/info/7833feecfe745e23"
@@ -2005,7 +2005,7 @@
     },
     {
         "date": "11/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=8a6fa2bb22",
             "fix": "https://www.sqlite.org/src/info/5863546df99abd1a"
@@ -2019,7 +2019,7 @@
     },
     {
         "date": "11/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=745f1abcdc",
             "fix": "https://www.sqlite.org/src/info/4ed905b18847d4db"
@@ -2033,7 +2033,7 @@
     },
     {
         "date": "11/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=278ac14262",
             "fix": "https://www.sqlite.org/src/info/629e20c9880acc2c"
@@ -2047,7 +2047,7 @@
     },
     {
         "date": "16/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=a8a4847a2d",
             "fix": "https://www.sqlite.org/src/info/eea1e7aa57e74c43"
@@ -2061,7 +2061,7 @@
     },
     {
         "date": "17/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=bf1aab8978",
             "fix": "https://www.sqlite.org/src/info/35beaee059a6ccce"
@@ -2075,7 +2075,7 @@
     },
     {
         "date": "21/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=7fc8e5ff25"
         },
@@ -2088,7 +2088,7 @@
     },
     {
         "date": "22/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b47e3627ec",
             "fix": "https://www.sqlite.org/src/info/90f7c477354d67d2"
@@ -2102,7 +2102,7 @@
     },
     {
         "date": "22/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b47e3627ec",
             "fix": "https://www.sqlite.org/src/info/c7da1c01f1f239e6"
@@ -2116,7 +2116,7 @@
     },
     {
         "date": "22/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=6ef984af89",
             "fix": "https://www.sqlite.org/src/info/5c118617cf08e17a"
@@ -2130,7 +2130,7 @@
     },
     {
         "date": "23/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=135c9da751",
             "fix": "https://www.sqlite.org/src/info/978b2d20cf95d0b7"
@@ -2144,7 +2144,7 @@
     },
     {
         "date": "24/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=50c09fc2cf",
             "fix": "https://www.sqlite.org/src/info/521f1d3628254948"
@@ -2158,7 +2158,7 @@
     },
     {
         "date": "24/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=dd1f67bf25",
             "fix": "https://www.sqlite.org/src/info/8d964e1c21d4cea6"
@@ -2172,7 +2172,7 @@
     },
     {
         "date": "25/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c1e19e1204",
             "fix": "https://www.sqlite.org/src/info/fbac0c65d8464b12"
@@ -2186,7 +2186,7 @@
     },
     {
         "date": "26/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=3ea1755124",
             "fix": "https://www.sqlite.org/src/info/5b4c0f2ddc6f324e"
@@ -2200,7 +2200,7 @@
     },
     {
         "date": "27/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=91e8695101",
             "fix": "https://www.sqlite.org/src/info/6d1bbba9a004a249"
@@ -2214,7 +2214,7 @@
     },
     {
         "date": "29/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=9621dd78a0",
             "fix": "https://sqlite.org/src/tktview?name=9621dd78a0"
@@ -2228,7 +2228,7 @@
     },
     {
         "date": "29/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=166347c6fc",
             "fix": "https://sqlite.org/src/info/4fba090e678ef184"
@@ -2243,7 +2243,7 @@
     {
         "comment": "This bug report made the SQLite developers remove the PRAGMA legacy_file_format option.",
         "date": "29/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=6484e6ce67",
             "fix": "https://sqlite.org/src/info/4d424f3047b48fc4"
@@ -2257,7 +2257,7 @@
     },
     {
         "date": "31/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=1d2a8efc6c",
             "fix": "https://sqlite.org/src/info/329820673a12ff6a"
@@ -2271,7 +2271,7 @@
     },
     {
         "date": "31/10/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=b9befa4b83",
             "fix": "https://sqlite.org/src/info/40d3282ec285d9f7"
@@ -2285,7 +2285,7 @@
     },
     {
         "date": "1/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=c28a01da72",
             "fix": "https://sqlite.org/src/info/bc6a43e7ee6353b9"
@@ -2299,7 +2299,7 @@
     },
     {
         "date": "2/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=a9efb42811",
             "fix": "https://sqlite.org/src/info/17e9f65814264de9"
@@ -2313,7 +2313,7 @@
     },
     {
         "date": "3/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=623eff57e7",
             "fix": "https://sqlite.org/src/info/3be19e1151af1850"
@@ -2327,7 +2327,7 @@
     },
     {
         "date": "3/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=3c9eadd2a6",
             "fix": "https://www.sqlite.org/src/info/c5f96a085db9688a"
@@ -2341,7 +2341,7 @@
     },
     {
         "date": "4/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=02aa2bd02f",
             "fix": "https://sqlite.org/src/info/ea20068e6d97c934"
@@ -2355,7 +2355,7 @@
     },
     {
         "date": "5/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=1cda8f4b54"
         },
@@ -2368,7 +2368,7 @@
     },
     {
         "date": "6/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=2399f59861",
             "fix": "https://sqlite.org/src/info/77b1c90add514050"
@@ -2382,7 +2382,7 @@
     },
     {
         "date": "6/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=ce22a07731",
             "fix": "https://sqlite.org/src/info/36c11ad51fe9ab1b"
@@ -2396,7 +2396,7 @@
     },
     {
         "date": "6/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=4fc08501f4",
             "fix": "https://www.sqlite.org/src/info/9e07b48934e9a972"
@@ -2410,7 +2410,7 @@
     },
     {
         "date": "7/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=299b50ba81",
             "fix": "https://www.sqlite.org/src/info/104a2beb57037f93"
@@ -2424,7 +2424,7 @@
     },
     {
         "date": "7/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=302027baf1",
             "fix": "https://www.sqlite.org/src/info/34f64f11ca481996"
@@ -2438,7 +2438,7 @@
     },
     {
         "date": "7/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=7e59041f9c",
             "fix": "https://www.sqlite.org/src/info/b59f94e4da9b1653"
@@ -2452,7 +2452,7 @@
     },
     {
         "date": "13/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA6gP7YAeCguyseusYcc%3DuR8%2BypjCcgDDCTzjQ%2Bk6S9ksQ%40mail.gmail.com"
         },
@@ -2464,7 +2464,7 @@
     },
     {
         "date": "13/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/d57d61533a2b5b27b60cc9024c54688390871bf6"
@@ -2477,7 +2477,7 @@
     },
     {
         "date": "16/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA4n2Q8G1DD5MEp%2Bmu08ayB%2BULRFrG4s_v3LhOj8f4bX-g%40mail.gmail.com"
         },
@@ -2489,7 +2489,7 @@
     },
     {
         "date": "19/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/c676e659b246f94d571b57b559f80cb2dc03e73b"
@@ -2502,7 +2502,7 @@
     },
     {
         "date": "19/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/b3c265d7be42484bd0ab4a9c0a920289e8f5c995",
@@ -2517,7 +2517,7 @@
     },
     {
         "date": "20/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA4%3Dvs9LjjP_643kgLRENv2eW%2B8v%2B5M8QGsY3Sg1K_18fg%40mail.gmail.com"
         },
@@ -2529,7 +2529,7 @@
     },
     {
         "date": "20/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "fix": "https://github.com/postgres/postgres/commit/4a0aab14dcb35550b55e623a3c194442c5666084"
         },
@@ -2541,7 +2541,7 @@
     },
     {
         "date": "11/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21029"
         },
@@ -2553,7 +2553,7 @@
     },
     {
         "date": "11/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21032"
         },
@@ -2565,7 +2565,7 @@
     },
     {
         "date": "11/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21034"
         },
@@ -2577,7 +2577,7 @@
     },
     {
         "date": "14/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21057"
         },
@@ -2589,7 +2589,7 @@
     },
     {
         "date": "14/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21058"
         },
@@ -2601,7 +2601,7 @@
     },
     {
         "date": "15/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21065",
             "fix": "https://github.com/mariadb/server/commit/fc860d3fa3bc854fbe6aab9179d7a4aaf6eb9edf"
@@ -2614,7 +2614,7 @@
     },
     {
         "date": "18/11/2019",
-        "dbms": "mariadb",
+        "dbms": "MariaDB",
         "links": {
             "bugtracker": "https://jira.mariadb.org/browse/MDEV-21076"
         },
@@ -2626,7 +2626,7 @@
     },
     {
         "date": "22/11/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "fix": "https://github.com/postgres/postgres/commit/c35b714caff008c875b484656de7d168a7bc45f9"
         },
@@ -2638,7 +2638,7 @@
     },
     {
         "date": "30/11/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=7f39060a24",
             "fix": "https://www.sqlite.org/src/info/4066a34da7bcdcec"
@@ -2652,7 +2652,7 @@
     },
     {
         "date": "02/12/2019",
-        "dbms": "postgres",
+        "dbms": "PostgreSQL",
         "links": {
             "email": "https://www.postgresql.org/message-id/flat/CA%2Bu7OA5TwqWTrvRoFOF1Vipf5WpfcbQYwtLGzNVXGwa6Ptor9w%40mail.gmail.com"
         },
@@ -2664,7 +2664,7 @@
     },
     {
         "date": "04/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=a55ab6d97d",
             "fix": "https://www.sqlite.org/src/info/f898d04cf272ef01"
@@ -2678,7 +2678,7 @@
     },
     {
         "date": "05/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=30e2c183b6",
             "fix": "https://www.sqlite.org/src/info/d43e0efb9642037d"
@@ -2692,7 +2692,7 @@
     },
     {
         "date": "05/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=9fe487ba3c",
             "fix": "https://www.sqlite.org/src/info/7ae8c0d52f6aa7f2"
@@ -2706,7 +2706,7 @@
     },
     {
         "date": "05/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=f096d191b6",
             "fix": "https://www.sqlite.org/src/info/b7810062ec2489e1"
@@ -2720,7 +2720,7 @@
     },
     {
         "date": "06/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=aa573a787b",
             "fix": "https://www.sqlite.org/src/info/32772dfd50b602c0"
@@ -2734,7 +2734,7 @@
     },
     {
         "date": "06/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=367a86e288",
             "docs fix": "https://www.sqlite.org/docsrc/info/8199b59a39c017c7",
@@ -2749,7 +2749,7 @@
     },
     {
         "date": "06/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=8bf76328ac",
             "docs fix": "https://www.sqlite.org/docsrc/info/c3ab325994a8f495"
@@ -2764,7 +2764,7 @@
     {
         "comment": "We reported this bug via a private email.",
         "date": "06/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "fix": "https://www.sqlite.org/src/info/ef73107f475e40e6"
         },
@@ -2776,7 +2776,7 @@
     },
     {
         "date": "06/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "fix": "https://www.sqlite.org/src/info/27c0fdab1ba4d499"
         },
@@ -2788,7 +2788,7 @@
     },
     {
         "date": "08/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=b92e5e8ec2",
             "fix": "https://www.sqlite.org/src/info/9d75e1ccc72e9f53"
@@ -2802,7 +2802,7 @@
     },
     {
         "date": "09/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=bd8c280671",
             "fix": "https://www.sqlite.org/src/info/f3b39c71b88cb672"
@@ -2816,7 +2816,7 @@
     },
     {
         "date": "11/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "fix": "https://www.sqlite.org/src/info/840de36df1aaeb4b"
         },
@@ -2828,7 +2828,7 @@
     },
     {
         "date": "10/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=d7c3f125c9",
             "fix": "https://www.sqlite.org/src/info/d47d66e3d360d8aa"
@@ -2842,7 +2842,7 @@
     },
     {
         "date": "11/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=cf36cb4e02",
             "commit": "https://www.sqlite.org/src/info/c16305eba0eb1436"
@@ -2856,7 +2856,7 @@
     },
     {
         "date": "14/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=b439bfcfb7",
             "fix": "https://www.sqlite.org/src/info/2401e04730a156aa"
@@ -2870,7 +2870,7 @@
     },
     {
         "date": "16/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=3b84b42943",
             "fix": "https://www.sqlite.org/src/tktview?name=3b84b42943"
@@ -2884,7 +2884,7 @@
     },
     {
         "date": "19/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=56a74875be",
             "fix": "https://www.sqlite.org/src/info/eb95dac7f6482c36"
@@ -2898,7 +2898,7 @@
     },
     {
         "date": "20/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "fix": "https://www.sqlite.org/src/info/3cc2b5709e66ef60"
         },
@@ -2910,7 +2910,7 @@
     },
     {
         "date": "20/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=e0a8120553",
             "fix": "https://sqlite.org/src/info/728ad39e3bd07a25"
@@ -2924,7 +2924,7 @@
     },
     {
         "date": "20/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=e431c35542",
             "commit": "https://sqlite.org/src/info/a1ba9a37d7a68a6d"
@@ -2938,7 +2938,7 @@
     },
     {
         "date": "21/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=cd3311e323",
             "commit": "https://sqlite.org/src/info/70815e273f511481"
@@ -2952,7 +2952,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=5ad2aa6921",
             "fix": "https://www.sqlite.org/src/info/89a9dad6330270a4"
@@ -2966,7 +2966,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=9cb7d0ef44",
             "fix": "https://sqlite.org/src/info/45748e2db028ffbd"
@@ -2980,7 +2980,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=f00d096cae",
             "fix": "https://sqlite.org/src/info/8c856404b4e98d29"
@@ -2994,7 +2994,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=d9ed4ebef1",
             "fix": "https://www.sqlite.org/src/info/0b1dbd60f5db3abe"
@@ -3008,7 +3008,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=1b06916e01",
             "fix": "https://sqlite.org/src/info/ddb17d92df194337"
@@ -3022,7 +3022,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=b0cb8aff56",
             "fix": "https://sqlite.org/src/info/56539e1c132632c0"
@@ -3036,7 +3036,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=7929c1efb2",
             "fix": "https://sqlite.org/src/info/ef604882a275d3d5"
@@ -3050,7 +3050,7 @@
     },
     {
         "date": "22/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=188f912b51",
             "fix": "https://sqlite.org/src/info/9ab985a9c8160b90"
@@ -3064,7 +3064,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=9d708e4742",
             "fix": "https://www.sqlite.org/src/info/2c44c73499154bc5"
@@ -3078,7 +3078,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=0911b5d161",
             "fix": "https://www.sqlite.org/src/info/f347744e0d576f02"
@@ -3092,7 +3092,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=c62c5e5852",
             "fix": "https://www.sqlite.org/src/info/36fdeb4f0a66970a"
@@ -3106,7 +3106,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=3ab4a9f02c",
             "fix": "https://www.sqlite.org/src/info/0b1dbd60"
@@ -3120,7 +3120,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=dfd66334cf",
             "fix": "https://sqlite.org/src/info/2f17974912ec5e99"
@@ -3134,7 +3134,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=5eadca17c4",
             "fix": "https://sqlite.org/src/info/4c50afafce841636"
@@ -3148,7 +3148,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=d62981b76d",
             "fix": "https://www.sqlite.org/src/info/a11b393dc2c882cf"
@@ -3162,7 +3162,7 @@
     },
     {
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=b383b90278",
             "fix": "https://sqlite.org/src/info/401c9d30e06191d9"
@@ -3177,7 +3177,7 @@
     {
         "comment": "This was not considered a bug. However, to clarify, a section \"Reading And Writing At The Same Time\" was added to the rtree documentation.",
         "date": "23/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=cafeafe605"
         },
@@ -3190,7 +3190,7 @@
     },
     {
         "date": "24/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=df46a6f38e",
             "fix": "https://www.sqlite.org/src/info/1c0a05b09a97e6e2"
@@ -3204,7 +3204,7 @@
     },
     {
         "date": "24/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=752fdbf6e7",
             "fix": "https://sqlite.org/src/info/bae060f382e4386c"
@@ -3218,7 +3218,7 @@
     },
     {
         "date": "25/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=167b2aac34",
             "fix": "https://www.sqlite.org/src/info/a5d7f5d24a239f72"
@@ -3232,7 +3232,7 @@
     },
     {
         "date": "25/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=d87336c81c",
             "fix": "https://www.sqlite.org/src/info/fa58aad48a788802"
@@ -3246,7 +3246,7 @@
     },
     {
         "date": "26/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=ec8abb025e",
             "fix": "https://www.sqlite.org/src/info/e54560495926fbb8"
@@ -3260,7 +3260,7 @@
     },
     {
         "date": "26/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=7c13db5c3b",
             "fix": "https://www.sqlite.org/src/info/f14ce948662f3445"
@@ -3274,7 +3274,7 @@
     },
     {
         "date": "27/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=fb3b3024ea",
             "fix": "https://sqlite.org/src/info/846b1de6e5a9e418"
@@ -3288,7 +3288,7 @@
     },
     {
         "date": "27/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=1dc432db3b",
             "documentation": "https://www.sqlite.org/fts3.html#_utf_16_byte_order_mark_problem_"
@@ -3302,7 +3302,7 @@
     },
     {
         "date": "28/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=37823501c6",
             "fix": "https://www.sqlite.org/src/info/4cc12c18860bc480"
@@ -3316,7 +3316,7 @@
     },
     {
         "date": "28/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=36ffedcb9a",
             "fix": "https://sqlite.org/src/info/597896ed0ae9e296"
@@ -3331,7 +3331,7 @@
     {
         "comment": "According to the SQLite developers, this bug report revealed a subtle problem n the new (unreleased) generated columns feature.",
         "date": "28/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=5fbc159eeb",
             "fix": "https://sqlite.org/src/info/4cc12c18860bc480"
@@ -3345,7 +3345,7 @@
     },
     {
         "date": "28/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://sqlite.org/src/tktview?name=de4b04149b",
             "fix": "https://sqlite.org/src/info/6afadd3b3a40b0ef"
@@ -3359,7 +3359,7 @@
     },
     {
         "date": "29/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=314cc133e5",
             "fix": "https://www.sqlite.org/src/info/db4b7e1dc399c1f1"
@@ -3373,7 +3373,7 @@
     },
     {
         "date": "30/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www3.sqlite.org/src/tktview?name=7c0e06b162",
             "fix": "https://www3.sqlite.org/src/info/ab09ef427181130b"
@@ -3388,7 +3388,7 @@
     {
         "comment": "Since we reported this bug 18 minutes after it was introduced, Richard Hipp sent a post titled '18 minutes 41 seconds' to the SQLite mailing list (see https://www.sqlite.org/src/info/f481636f1a0333c6)",
         "date": "30/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=892575cdba",
             "fix": "https://www.sqlite.org/src/info/f481636f1a0333c6"
@@ -3402,7 +3402,7 @@
     },
     {
         "date": "30/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=a0e88d8d7a"
         },
@@ -3414,7 +3414,7 @@
     },
     {
         "date": "31/12/2019",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=46fcd700b8",
             "fix": "https://www.sqlite.org/src/info/eca7ec9cda4606c4"
@@ -3427,7 +3427,7 @@
     },
     {
         "date": "02/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=771fe61761",
             "fix": "https://www.sqlite.org/src/info/e782096aa06fcf41"
@@ -3440,7 +3440,7 @@
     },
     {
         "date": "04/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=727074e2ae",
             "fix": "https://www.sqlite.org/src/info/74ef6f2b6d9f50ff"
@@ -3454,7 +3454,7 @@
     },
     {
         "date": "04/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=74a4c3860c",
             "fix": "https://www.sqlite.org/src/info/cfff5cb2279088aa"
@@ -3468,7 +3468,7 @@
     },
     {
         "date": "04/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=a3713a5fca"
         },
@@ -3480,7 +3480,7 @@
     },
     {
         "date": "08/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=82ac75ba00",
             "fix": "https://www.sqlite.org/src/info/6db1c3498f6bfa01"
@@ -3494,7 +3494,7 @@
     },
     {
         "date": "08/01/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=9eda2697f5",
             "fix": "https://www.sqlite.org/src/info/1c76f1d8ec0937a2"
@@ -3508,7 +3508,7 @@
     },
     {
         "date": "18/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44123"
         },
@@ -3520,7 +3520,7 @@
     },
     {
         "date": "19/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44132",
             "fix": "https://github.com/cockroachdb/cockroach/issues/44132"
@@ -3533,7 +3533,7 @@
     },
     {
         "date": "19/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44133",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44144"
@@ -3546,7 +3546,7 @@
     },
     {
         "date": "20/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44137"
         },
@@ -3558,7 +3558,7 @@
     },
     {
         "date": "20/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44142",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45260"
@@ -3571,7 +3571,7 @@
     },
     {
         "date": "20/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44148",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44775"
@@ -3584,7 +3584,7 @@
     },
     {
         "date": "21/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44152",
             "fix": "https://github.com/cockroachdb/cockroach/issues/44152"
@@ -3597,7 +3597,7 @@
     },
     {
         "date": "21/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44154",
             "fix1": "https://github.com/cockroachdb/cockroach/pull/44500",
@@ -3611,7 +3611,7 @@
     },
     {
         "date": "21/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44181",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44216"
@@ -3624,7 +3624,7 @@
     },
     {
         "date": "22/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44203",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44307"
@@ -3637,7 +3637,7 @@
     },
     {
         "date": "22/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44207",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44219"
@@ -3650,7 +3650,7 @@
     },
     {
         "date": "22/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44237"
         },
@@ -3662,7 +3662,7 @@
     },
     {
         "date": "23/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44244",
             "fix": "https://github.com/cockroachdb/cockroach/commit/6f7239ba84b5988951d6148f8feba6344cd40c9d"
@@ -3676,7 +3676,7 @@
     {
         "comment": "After we reported this bug, the CockroachDB developers added additional random testing to detect similar bugs.",
         "date": "23/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44296",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44386"
@@ -3689,7 +3689,7 @@
     },
     {
         "date": "23/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44304",
             "fix": "https://github.com/cockroachdb/cockroach/issues/44304"
@@ -3702,7 +3702,7 @@
     },
     {
         "date": "26/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44385",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46384"
@@ -3715,7 +3715,7 @@
     },
     {
         "date": "27/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44418",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44430"
@@ -3728,7 +3728,7 @@
     },
     {
         "date": "29/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44466",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45372"
@@ -3741,7 +3741,7 @@
     },
     {
         "date": "30/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44547",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44796"
@@ -3754,7 +3754,7 @@
     },
     {
         "date": "30/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44565",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44590"
@@ -3767,7 +3767,7 @@
     },
     {
         "date": "01/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44621",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44633"
@@ -3780,7 +3780,7 @@
     },
     {
         "date": "01/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44624",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44660"
@@ -3793,7 +3793,7 @@
     },
     {
         "date": "02/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44625"
         },
@@ -3805,7 +3805,7 @@
     },
     {
         "date": "03/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44632",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44718"
@@ -3818,7 +3818,7 @@
     },
     {
         "date": "04/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44683",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45009"
@@ -3831,7 +3831,7 @@
     },
     {
         "date": "04/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44726",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44756"
@@ -3844,7 +3844,7 @@
     },
     {
         "date": "05/01/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44746",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44788"
@@ -3857,7 +3857,7 @@
     },
     {
         "date": "05/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44757"
         },
@@ -3869,7 +3869,7 @@
     },
     {
         "date": "06/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44822",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44829"
@@ -3882,7 +3882,7 @@
     },
     {
         "date": "07/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44881",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44887"
@@ -3895,7 +3895,7 @@
     },
     {
         "date": "08/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44891"
         },
@@ -3907,7 +3907,7 @@
     },
     {
         "date": "09/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44904",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44930"
@@ -3920,7 +3920,7 @@
     },
     {
         "date": "11/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44982",
             "fix": "https://github.com/cockroachdb/cockroach/pull/44942"
@@ -3933,7 +3933,7 @@
     },
     {
         "date": "12/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44992",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45410"
@@ -3946,7 +3946,7 @@
     },
     {
         "date": "12/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/45038",
             "fix": "https://github.com/cockroachdb/cockroach/pull/45042"
@@ -3959,7 +3959,7 @@
     },
     {
         "date": "17/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/45142"
         },
@@ -3971,7 +3971,7 @@
     },
     {
         "date": "26/02/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/45453",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46879"
@@ -3984,7 +3984,7 @@
     },
     {
         "date": "14/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46122",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46204"
@@ -3997,7 +3997,7 @@
     },
     {
         "date": "14/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46123",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46200"
@@ -4010,7 +4010,7 @@
     },
     {
         "date": "16/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46140",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46494"
@@ -4023,7 +4023,7 @@
     },
     {
         "date": "17/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46187",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46440"
@@ -4036,7 +4036,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46393",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46422"
@@ -4050,7 +4050,7 @@
     {
         "comment": "https://github.com/cockroachdb/cockroach/pull/46570#pullrequestreview-381413671",
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46394",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46570"
@@ -4063,7 +4063,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46395",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46408"
@@ -4076,7 +4076,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46397",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46409"
@@ -4089,7 +4089,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46401"
         },
@@ -4101,7 +4101,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46403",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47099"
@@ -4114,7 +4114,7 @@
     },
     {
         "date": "21/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46404",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46439"
@@ -4127,7 +4127,7 @@
     },
     {
         "date": "22/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46412",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46436"
@@ -4140,7 +4140,7 @@
     },
     {
         "date": "10/03/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=e0c2ad1aa8",
             "fix": "https://www.sqlite.org/src/info/101f7dea75a203f1"
@@ -4153,7 +4153,7 @@
     },
     {
         "date": "04/03/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=1b8d726456",
             "fix": "https://www.sqlite.org/src/info/4a5851893c3d71cc"
@@ -4166,7 +4166,7 @@
     },
     {
         "date": "05/03/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=fa146dcfe6",
             "fix": "https://www.sqlite.org/docsrc/info/e751b0c91a80dd31"
@@ -4179,7 +4179,7 @@
     },
     {
         "date": "24/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46503"
         },
@@ -4191,7 +4191,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15725",
             "fix": "https://github.com/pingcap/tidb/pull/16108"
@@ -4204,7 +4204,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15733"
         },
@@ -4216,7 +4216,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15743"
         },
@@ -4228,7 +4228,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15746",
             "fix": "https://github.com/pingcap/tidb/pull/15765"
@@ -4241,7 +4241,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15751",
             "fix": "https://github.com/pingcap/tidb/pull/15845"
@@ -4254,7 +4254,7 @@
     },
     {
         "date": "26/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15752",
             "fix": "https://github.com/pingcap/tidb/pull/15889"
@@ -4267,7 +4267,7 @@
     },
     {
         "date": "27/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15789",
             "fix": "https://github.com/pingcap/tidb/issues/15789"
@@ -4280,7 +4280,7 @@
     },
     {
         "date": "27/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15790",
             "fix": "https://github.com/pingcap/tidb/pull/16073"
@@ -4293,7 +4293,7 @@
     },
     {
         "date": "29/03/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46714",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46712"
@@ -4306,7 +4306,7 @@
     },
     {
         "date": "29/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15810",
             "fix": "https://github.com/pingcap/tidb/pull/16600"
@@ -4319,7 +4319,7 @@
     },
     {
         "date": "29/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15812",
             "fix": "https://github.com/pingcap/tidb/pull/15837"
@@ -4332,7 +4332,7 @@
     },
     {
         "date": "29/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15813",
             "fix": "https://github.com/pingcap/tidb/pull/15840"
@@ -4345,7 +4345,7 @@
     },
     {
         "date": "30/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15844"
         },
@@ -4357,7 +4357,7 @@
     },
     {
         "date": "30/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15846",
             "fix": "https://github.com/pingcap/tidb/pull/15894"
@@ -4370,7 +4370,7 @@
     },
     {
         "date": "30/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15847"
         },
@@ -4382,7 +4382,7 @@
     },
     {
         "date": "30/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15850",
             "fix": "https://github.com/pingcap/tidb/pull/15984"
@@ -4395,7 +4395,7 @@
     },
     {
         "date": "30/03/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15858",
             "fix": "https://github.com/pingcap/tidb/pull/15947"
@@ -4408,7 +4408,7 @@
     },
     {
         "date": "31/03/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99120"
         },
@@ -4421,7 +4421,7 @@
     },
     {
         "date": "31/03/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "fixed_version": "8.0.21",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99122"
@@ -4435,7 +4435,7 @@
     },
     {
         "date": "31/03/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99127"
         },
@@ -4448,7 +4448,7 @@
     },
     {
         "date": "31/03/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99130"
         },
@@ -4461,7 +4461,7 @@
     },
     {
         "date": "31/03/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99135"
         },
@@ -4474,7 +4474,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15986",
             "fix": "https://github.com/pingcap/tidb/pull/16014"
@@ -4487,7 +4487,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15987"
         },
@@ -4499,7 +4499,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15988",
             "fix": "https://github.com/pingcap/tidb/pull/16380"
@@ -4512,7 +4512,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15990",
             "fix": "https://github.com/pingcap/tidb/pull/16135"
@@ -4525,7 +4525,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15991",
             "fix": "https://github.com/pingcap/tidb/issues/15991"
@@ -4538,7 +4538,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15992",
             "fix": "https://github.com/pingcap/tidb/pull/16376"
@@ -4551,7 +4551,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15993",
             "fix": "https://github.com/pingcap/tidb/issues/15993"
@@ -4564,7 +4564,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15994",
             "fix": "https://github.com/pingcap/tidb/pull/16002"
@@ -4577,7 +4577,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99145"
         },
@@ -4589,7 +4589,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99146"
         },
@@ -4601,7 +4601,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99149"
         },
@@ -4613,7 +4613,7 @@
     },
     {
         "date": "01/04/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99150"
         },
@@ -4625,7 +4625,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46914",
             "fix": "https://github.com/cockroachdb/cockroach/pull/50815"
@@ -4638,7 +4638,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46915"
         },
@@ -4650,7 +4650,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16017"
         },
@@ -4662,7 +4662,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16020",
             "fix": "https://github.com/pingcap/tidb/pull/16316"
@@ -4675,7 +4675,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16023",
             "fix": "https://github.com/pingcap/tidb/pull/16444"
@@ -4688,7 +4688,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16025",
             "fix": "https://github.com/pingcap/tidb/pull/16518"
@@ -4701,7 +4701,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16027"
         },
@@ -4713,7 +4713,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16028"
         },
@@ -4725,7 +4725,7 @@
     },
     {
         "date": "02/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16029",
             "fix": "https://github.com/pingcap/tidb/pull/16405"
@@ -4738,7 +4738,7 @@
     },
     {
         "date": "03/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46964",
             "fixed": "https://github.com/cockroachdb/cockroach/pull/47281"
@@ -4751,7 +4751,7 @@
     },
     {
         "date": "03/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46970"
         },
@@ -4763,7 +4763,7 @@
     },
     {
         "date": "03/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46973",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47077"
@@ -4776,7 +4776,7 @@
     },
     {
         "date": "03/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46981",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47036"
@@ -4790,7 +4790,7 @@
     {
         "comment": "could also be found by the qp-where oracle",
         "date": "04/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47029",
             "fix": "https://github.com/cockroachdb/cockroach/issues/47029"
@@ -4803,7 +4803,7 @@
     },
     {
         "date": "04/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47030",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47482"
@@ -4816,7 +4816,7 @@
     },
     {
         "date": "04/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47031"
         },
@@ -4828,7 +4828,7 @@
     },
     {
         "date": "04/04/2020",
-        "dbms": "mysql",
+        "dbms": "MySQL",
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99182"
         },
@@ -4840,7 +4840,7 @@
     },
     {
         "date": "04/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47037",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47090"
@@ -4853,7 +4853,7 @@
     },
     {
         "date": "04/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47041",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47159"
@@ -4866,7 +4866,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47114"
         },
@@ -4878,7 +4878,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47115",
             "fix": "https://github.com/cockroachdb/cockroach/pull/48052"
@@ -4891,7 +4891,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47116"
         },
@@ -4903,7 +4903,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47122"
         },
@@ -4915,7 +4915,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47131",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47174"
@@ -4928,7 +4928,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/489",
             "fix1": "https://github.com/cwida/duckdb/commit/b838c589e26c47c342dd29b890438f5fb9dce4d4",
@@ -4942,7 +4942,7 @@
     },
     {
         "date": "07/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/490",
             "fix": "https://github.com/cwida/duckdb/commit/f18ef427cfbe75f76abc40a00937dc1bea675012"
@@ -4955,7 +4955,7 @@
     },
     {
         "date": "08/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/493",
             "fix": "https://github.com/cwida/duckdb/commit/403219728c302ad1eba1cf9e30934b85539a8945"
@@ -4968,7 +4968,7 @@
     },
     {
         "date": "08/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/495",
             "fix": "https://github.com/cwida/duckdb/commit/7156b358369203ab45fc55eac8605e475c7fdce4"
@@ -4981,7 +4981,7 @@
     },
     {
         "date": "08/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/496",
             "fix": "https://github.com/cwida/duckdb/commit/f11d74a04e5326bde44058b0724ab33ac33547f8"
@@ -4994,7 +4994,7 @@
     },
     {
         "date": "08/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/497",
             "fix": "https://github.com/cwida/duckdb/commit/a90e05ae7d4995ff094c3f0551c4564006f095f2"
@@ -5007,7 +5007,7 @@
     },
     {
         "date": "09/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/500",
             "fix": "https://github.com/cwida/duckdb/commit/57c3f002e6017a11964c598b377f849cc7722438"
@@ -5020,7 +5020,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "cockroachdb",
+        "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47327",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47483"
@@ -5033,7 +5033,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/503",
             "fix": "https://github.com/cwida/duckdb/commit/1014b562dcd8228e7bdb3f984323034d3f0ae3ca"
@@ -5046,7 +5046,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/504",
             "fix": "https://github.com/cwida/duckdb/commit/3a536f71d9ef1ee9feab8cb0870e425c0cdae9d6"
@@ -5059,7 +5059,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/505",
             "fix": "https://github.com/cwida/duckdb/issues/505"
@@ -5072,7 +5072,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/506",
             "fix": "https://github.com/cwida/duckdb/commit/801101000f874aac259bb8f5af30983a03475fba"
@@ -5085,7 +5085,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/507",
             "fix": "https://github.com/cwida/duckdb/commit/a56a90108d8e0e012abbbd0b97bfc224555c6a11"
@@ -5098,7 +5098,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/508",
             "fix": "https://github.com/cwida/duckdb/commit/c40e4ca4b08c65213d74f6f4349d46cf5c25f430"
@@ -5111,7 +5111,7 @@
     },
     {
         "date": "10/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/510",
             "fix": "https://github.com/cwida/duckdb/commit/0ba277225e9748b805dd9bf0270da75ec8db286b"
@@ -5124,7 +5124,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/513",
             "fix": "https://github.com/cwida/duckdb/commit/215e40cd5cdb7eee68797df4982219c63f04e2a9"
@@ -5137,7 +5137,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/514",
             "fix": "https://github.com/cwida/duckdb/commit/0d29535fe6aefdf2fbe8a7de0775c253f8038a1a"
@@ -5150,7 +5150,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/515",
             "fix": "https://github.com/cwida/duckdb/commit/7e1234d8f414f1e1de4e15a57939594036d74f37"
@@ -5163,7 +5163,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/516",
             "fix": "https://github.com/cwida/duckdb/commit/331cce4a0c88ee1b477d5859de7211c455664349"
@@ -5176,7 +5176,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/517",
             "fix": "https://github.com/cwida/duckdb/commit/d88e21d926e732096081ee8afda03d70310bee2d"
@@ -5189,7 +5189,7 @@
     },
     {
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/518",
             "fix": "https://github.com/cwida/duckdb/commit/230785f2e6dceac410cfd894db214d21e356b127"
@@ -5203,7 +5203,7 @@
     {
         "additional_testcase": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c1 INT);\nINSERT INTO t1(c1) VALUES (0);\nINSERT INTO t0(c0) VALUES (0);\nSELECT t1.c1 FROM t0, t1;\nSELECT t1.c1 FROM t0, t1 WHERE ((ROUND(0.1, 1000))=((t1.c1 < t0.c0))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE (NOT ((ROUND(0.1, 1000))=((t1.c1 < t0.c0)))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE ((((ROUND(0.1, 1000))=((t1.c1 < t0.c0)))) IS NULL);\n",
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/521",
             "fix": "https://github.com/cwida/duckdb/commit/e399d40eb76f2fbe97c9e139551171862ab7848d"
@@ -5217,7 +5217,7 @@
     {
         "additional_testcase": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c1 INT);\nINSERT INTO t1(c1) VALUES (0);\nINSERT INTO t0(c0) VALUES (0);\nSELECT t1.c1 FROM t0, t1;\nSELECT t1.c1 FROM t0, t1 WHERE (1e100::real*0=((t1.c1 < t0.c0))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE (NOT (1e100::real*0=((t1.c1 < t0.c0)))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE (((1e100::real*0=((t1.c1 < t0.c0)))) IS NULL);",
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/522",
             "fix": "https://github.com/cwida/duckdb/pull/541"
@@ -5231,7 +5231,7 @@
     {
         "additional_testcase": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c1 INT);\nINSERT INTO t1(c1) VALUES (0);\nINSERT INTO t0(c0) VALUES (0);\nSELECT t1.c1 FROM t0, t1;\nSELECT t1.c1 FROM t0, t1 WHERE (SIN(1e1000)=((t1.c1 < t0.c0))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE (NOT (SIN(1e1000)=((t1.c1 < t0.c0)))) UNION ALL\nSELECT t1.c1 FROM t0, t1 WHERE (((SIN(1e1000)=((t1.c1 < t0.c0)))) IS NULL);",
         "date": "11/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/523",
             "fix": "https://github.com/cwida/duckdb/pull/541"
@@ -5244,7 +5244,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/525",
             "fix": "https://github.com/cwida/duckdb/commit/0e5a3c47eb28c8b6b9797c0c7f64e8ed5c322cb6"
@@ -5257,7 +5257,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/526",
             "fix": "https://github.com/cwida/duckdb/commit/a5a88b41f8346a582d6cecb80a12e7287d300bf1"
@@ -5270,7 +5270,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/527"
         },
@@ -5282,7 +5282,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/528",
             "fix": "https://github.com/cwida/duckdb/commit/1035a091f6feba4cc1c37bea5dda3d3ccfcacd17"
@@ -5295,7 +5295,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/531",
             "fix": "https://github.com/cwida/duckdb/commit/409b26b96fd9daeb9117ec620f9046f6f657b8eb"
@@ -5308,7 +5308,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/533",
             "fix": "https://github.com/cwida/duckdb/commit/7905e332b02cd069c238c0ea878afdf4cf8c0419"
@@ -5321,7 +5321,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/534",
             "fix": "https://github.com/cwida/duckdb/commit/1866e91805ddcc6ac0e0236d44209325334524e4"
@@ -5334,7 +5334,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/535",
             "fix": "https://github.com/cwida/duckdb/commit/03eafe5d77900714f56f0c6e3d6fb3f0204926cf"
@@ -5347,7 +5347,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/536",
             "fix": "https://github.com/cwida/duckdb/commit/7548d0244bd24cd5da20ec1fdb8f722b39367016"
@@ -5360,7 +5360,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/537",
             "fix": "https://github.com/cwida/duckdb/commit/504eb1a3e14c5db4ef46fa8c7dff09702e32d9d4"
@@ -5373,7 +5373,7 @@
     },
     {
         "date": "12/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/538",
             "fix": "https://github.com/cwida/duckdb/commit/faf41956b6363882ef217b81e0c0db9fb7f39970"
@@ -5386,7 +5386,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/539",
             "fix": "https://github.com/cwida/duckdb/pull/550/commits/7d5ea9f7eb3b249b57f3e42afca6eeac885ae151"
@@ -5399,7 +5399,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/540",
             "fix": "https://github.com/cwida/duckdb/commit/7945aa5c9e591b715cf16d8ef0dc4c9612f08219"
@@ -5412,7 +5412,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/543",
             "fix": "https://github.com/cwida/duckdb/pull/558/commits/fda8813bb208886a310d927f35566a2f74862aeb"
@@ -5425,7 +5425,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/544",
             "fix": "https://github.com/cwida/duckdb/commit/72491b0046cd45cd0702fc60d5f42d4234f82d54"
@@ -5438,7 +5438,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/547",
             "fix": "https://github.com/cwida/duckdb/commit/09565d0bf0df4968defedc23dc00dacbd5afbd8e"
@@ -5451,7 +5451,7 @@
     },
     {
         "date": "13/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/549",
             "fix": "https://github.com/cwida/duckdb/pull/558/commits/13c37227d777be60e5653830d12c894944bcd549"
@@ -5464,7 +5464,7 @@
     },
     {
         "date": "14/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/552"
         },
@@ -5476,7 +5476,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/4"
         },
@@ -5489,7 +5489,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/5"
         },
@@ -5502,7 +5502,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/6"
         },
@@ -5515,7 +5515,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/7"
         },
@@ -5528,7 +5528,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/8"
         },
@@ -5541,7 +5541,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/9"
         },
@@ -5554,7 +5554,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/10"
         },
@@ -5567,7 +5567,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16419",
             "fix": "https://github.com/pingcap/tidb/pull/16430"
@@ -5580,7 +5580,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16440"
         },
@@ -5592,7 +5592,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/13"
         },
@@ -5605,7 +5605,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/14"
         },
@@ -5618,7 +5618,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/15"
         },
@@ -5631,7 +5631,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/16"
         },
@@ -5644,7 +5644,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/18"
         },
@@ -5657,7 +5657,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/19"
         },
@@ -5670,7 +5670,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/560",
             "fix": "https://github.com/cwida/duckdb/commit/db0e6131397d4a09cd2c997fb86a9974b6c356e3"
@@ -5683,7 +5683,7 @@
     },
     {
         "date": "15/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/562",
             "fix": "https://github.com/cwida/duckdb/commit/ae863586dc73d4113ad508a04a8b2aa892038eec"
@@ -5696,7 +5696,7 @@
     },
     {
         "date": "16/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/567",
             "fix": "https://github.com/cwida/duckdb/commit/2927f7835bdee40695b8cf946890cca86c42623a"
@@ -5709,7 +5709,7 @@
     },
     {
         "date": "19/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/571",
             "fix": "https://github.com/cwida/duckdb/commit/e913dacbdfc00fa6686a5c470e3deeb1a5893ee0"
@@ -5722,7 +5722,7 @@
     },
     {
         "date": "19/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/572",
             "fix": "https://github.com/cwida/duckdb/pull/573"
@@ -5735,7 +5735,7 @@
     },
     {
         "date": "19/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/43"
         },
@@ -5748,7 +5748,7 @@
     },
     {
         "date": "20/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/45"
         },
@@ -5761,7 +5761,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/47"
         },
@@ -5774,7 +5774,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/48"
         },
@@ -5787,7 +5787,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/49"
         },
@@ -5800,7 +5800,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/50"
         },
@@ -5813,7 +5813,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/52"
         },
@@ -5826,7 +5826,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/53"
         },
@@ -5839,7 +5839,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/54"
         },
@@ -5852,7 +5852,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/55"
         },
@@ -5865,7 +5865,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/56"
         },
@@ -5878,7 +5878,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/57"
         },
@@ -5891,7 +5891,7 @@
     },
     {
         "date": "22/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/58"
         },
@@ -5904,7 +5904,7 @@
     },
     {
         "date": "23/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/62"
         },
@@ -5917,7 +5917,7 @@
     },
     {
         "date": "23/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16779",
             "fix": "https://github.com/pingcap/tidb/pull/16866"
@@ -5930,7 +5930,7 @@
     },
     {
         "date": "23/04/2020",
-        "dbms": "tidb",
+        "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/63"
         },
@@ -5943,7 +5943,7 @@
     },
     {
         "date": "24/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/579",
             "fix": "https://github.com/cwida/duckdb/commit/f77519c6fb26fc1df1f503f182525b7af68c59fb"
@@ -5956,7 +5956,7 @@
     },
     {
         "date": "24/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/580",
             "fix": "https://github.com/cwida/duckdb/commit/184f51539e3df106c148f5816dccfb1927e85c5d"
@@ -5969,7 +5969,7 @@
     },
     {
         "date": "24/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/581",
             "fix": "https://github.com/cwida/duckdb/commit/0cb8b09273b37ee9ab0ccfaa677926a0e970c51b"
@@ -5982,7 +5982,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=45f4bf4eb4",
             "fix": "https://www.sqlite.org/src/info/ac31edd3eeafcef4"
@@ -5995,7 +5995,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/583",
             "fix": "https://github.com/cwida/duckdb/commit/bc96c1ef70867fc402906739b5133c1674f054cf"
@@ -6008,7 +6008,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/584",
             "fix": "https://github.com/cwida/duckdb/commit/e8ec15172fab1dd5c0547f4259ed3dc8ce31f8e9"
@@ -6021,7 +6021,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/585",
             "fix": "https://github.com/cwida/duckdb/commit/dc352a3729f57252a1f6bfa18077fed9c4598a54"
@@ -6034,7 +6034,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/586",
             "fix": "https://github.com/cwida/duckdb/commit/77f3151ecfa85dfa894f3a23feb2271a4cac1ddc"
@@ -6047,7 +6047,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/587",
             "fix": "https://github.com/cwida/duckdb/commit/a750473a7e4979a5237471268a752e46dee36e24"
@@ -6060,7 +6060,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/588",
             "fix": "https://github.com/cwida/duckdb/commit/8a7cf974f7372a66e837b9cfa5d5c3929e1f625f"
@@ -6073,7 +6073,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/589",
             "fix": "https://github.com/cwida/duckdb/commit/0bfdbf39638c8b623056698850389349ec463ccc"
@@ -6086,7 +6086,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/590",
             "fix": "https://github.com/cwida/duckdb/issues/590"
@@ -6099,7 +6099,7 @@
     },
     {
         "date": "25/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/591"
         },
@@ -6111,7 +6111,7 @@
     },
     {
         "date": "26/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/592",
             "fix": "https://github.com/cwida/duckdb/commit/96d5ae2e3a4b3aa52eab3878b78c5bdb8f6946b9"
@@ -6124,7 +6124,7 @@
     },
     {
         "date": "27/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/596",
             "fix": "https://github.com/cwida/duckdb/commit/2e03516e04ae94c33bff66201cb4290c1dc86662"
@@ -6137,7 +6137,7 @@
     },
     {
         "date": "28/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/599",
             "fix": "https://github.com/cwida/duckdb/commit/29e801a7a8c1d219f5633b35dca5c88ced20abdd"
@@ -6150,7 +6150,7 @@
     },
     {
         "date": "29/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/602",
             "fix": "https://github.com/cwida/duckdb/pull/601/commits/ef292aa079f4a1c6b477d9eb052220d0d1f30c46"
@@ -6163,7 +6163,7 @@
     },
     {
         "date": "29/04/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/603",
             "fix": "https://github.com/cwida/duckdb/commit/67368aa3793590fe503269118c1312b73097be40"
@@ -6176,7 +6176,7 @@
     },
     {
         "date": "01/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/609",
             "fix": "https://github.com/cwida/duckdb/commit/7cf32b2983e6b579e4e3ec17cc62673a13eae9ee"
@@ -6189,7 +6189,7 @@
     },
     {
         "date": "01/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/610",
             "fix": "https://github.com/cwida/duckdb/pull/611/commits/fa0e59bef20c9ed8fd64eaca59405b1f2254903b"
@@ -6202,7 +6202,7 @@
     },
     {
         "date": "04/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/618",
             "fix": "https://github.com/cwida/duckdb/commit/1a1990c786bfd5b3a327e97d8c8028319b2ebef8"
@@ -6215,7 +6215,7 @@
     },
     {
         "date": "04/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/619",
             "fix": "https://github.com/cwida/duckdb/commit/6ef7f2f0202d9d6a8556de022dbe3c9d02851eb5"
@@ -6228,7 +6228,7 @@
     },
     {
         "date": "05/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/622",
             "fix": "https://github.com/cwida/duckdb/commit/289b2eaa836d22d7994154a912f8b786be48984b"
@@ -6241,7 +6241,7 @@
     },
     {
         "date": "05/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/624",
             "fix": "https://github.com/cwida/duckdb/commit/b6a065d6ebbab25ae8e023cf1105c5237f26de46"
@@ -6254,7 +6254,7 @@
     },
     {
         "date": "05/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/625",
             "fix": "https://github.com/cwida/duckdb/commit/b6665e723c5f3d9cbd7b0018ce8c242260ac6dc3"
@@ -6267,7 +6267,7 @@
     },
     {
         "date": "05/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/628",
             "fix": "https://github.com/cwida/duckdb/commit/5624a825ce7de0844b22356a76c1894bd90f9093"
@@ -6280,7 +6280,7 @@
     },
     {
         "date": "05/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/629",
             "fix": "https://github.com/cwida/duckdb/commit/ea6cd8245fd192cd181bdd05fe5ecce5d9a48aa8"
@@ -6293,7 +6293,7 @@
     },
     {
         "date": "06/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/633",
             "fix": "https://github.com/cwida/duckdb/commit/e05902abc4358bcbaacf41c4075290a0bf6432ee"
@@ -6306,7 +6306,7 @@
     },
     {
         "date": "07/05/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/637",
             "fix": "https://github.com/cwida/duckdb/pull/690"
@@ -6319,7 +6319,7 @@
     },
     {
         "date": "12/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2804",
             "fix": "https://github.com/h2database/h2database/pull/2805/commits/e07127455669a116b25a099ccc8c898ea8f0700b"
@@ -6332,7 +6332,7 @@
     },
     {
         "date": "12/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2803",
             "fix": "https://github.com/h2database/h2database/pull/2808"
@@ -6345,7 +6345,7 @@
     },
     {
         "date": "12/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2807"
         },
@@ -6357,7 +6357,7 @@
     },
     {
         "date": "14/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2812"
         },
@@ -6369,7 +6369,7 @@
     },
     {
         "date": "14/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2813",
             "fix": "https://github.com/h2database/h2database/pull/2814/commits/47996fd10483512806f83d81281294c15865d0f3"
@@ -6382,7 +6382,7 @@
     },
     {
         "date": "15/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2816",
             "fix": "https://github.com/h2database/h2database/pull/2817/commits/909d130d662fd3be8845d6b105a936aa19c87c51"
@@ -6395,7 +6395,7 @@
     },
     {
         "date": "18/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2825",
             "fix": "https://github.com/h2database/h2database/pull/2827/commits/938ae0ded2a0f3b72dca4d9f7fae57f8e12206a3"
@@ -6408,7 +6408,7 @@
     },
     {
         "date": "18/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2826",
             "fix": "https://github.com/h2database/h2database/pull/2827/commits/8361cc902df325960ac9afaa70096cbbe1b4cf63"
@@ -6421,7 +6421,7 @@
     },
     {
         "date": "18/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2828",
             "fix": "https://github.com/h2database/h2database/pull/2830/commits/24c4240ff685f9d8b4f2ee33c40a9184f734e6df"
@@ -6434,7 +6434,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2834"
         },
@@ -6446,7 +6446,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2831",
             "fix": "https://github.com/h2database/h2database/pull/2836/commits/61514ae8309115bf69a34d60b6be92fd443eaab2"
@@ -6459,7 +6459,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2835",
             "fix": "https://github.com/h2database/h2database/pull/2836/commits/49e3559ad79204b321f726db13a925d541e49985"
@@ -6472,7 +6472,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2833",
             "fix": "https://github.com/h2database/h2database/pull/2836/commits/4b2441e0629b8fea2bafca453128b7f7194625b8"
@@ -6485,7 +6485,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2837",
             "fix": "https://github.com/h2database/h2database/pull/2840/commits/21c86dd18621adbfdc534c6f77ed73f54ef26e68"
@@ -6498,7 +6498,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2838",
             "fix": "https://github.com/h2database/h2database/pull/2840/commits/23ca1f8d587e39cbc9e2173f9c558f3a29c9beb6"
@@ -6511,7 +6511,7 @@
     },
     {
         "date": "19/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2839",
             "fix": "https://github.com/h2database/h2database/pull/2840/commits/40d925d33cfacc74d4f407aa947ca4e1dc43cbce"
@@ -6524,7 +6524,7 @@
     },
     {
         "date": "20/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2841",
             "fix": "https://github.com/h2database/h2database/pull/2844"
@@ -6537,7 +6537,7 @@
     },
     {
         "date": "20/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2842",
             "fix": "https://github.com/h2database/h2database/pull/2844"
@@ -6550,7 +6550,7 @@
     },
     {
         "date": "25/08/2020",
-        "dbms": "h2",
+        "dbms": "H2",
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2832",
             "fix": "https://github.com/h2database/h2database/pull/2850"
@@ -6563,7 +6563,7 @@
     },
     {
         "date": "24/08/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreports": "https://www.sqlite.org/src/tktview?name=f3ff147288",
             "fix": "https://www.sqlite.org/src/info/4236103379df0b3d"
@@ -6576,7 +6576,7 @@
     },
     {
         "date": "27/08/2020",
-        "dbms": "sqlite",
+        "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=be31cf009c",
             "fix": "https://www.sqlite.org/docsrc/info/153857859d220dbd"
@@ -6589,7 +6589,7 @@
     },
     {
         "date": "24/09/2020",
-        "dbms": "duckdb",
+        "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/956"
         },
