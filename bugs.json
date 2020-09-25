@@ -4015,7 +4015,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46140",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46494"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SET vectorize=experimental_on;\nCREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 BOOL) INTERLEAVE IN PARENT t0(rowid);\nINSERT INTO t0(c0) VALUES (0);\nINSERT INTO t1(rowid, c0) VALUES(0, TRUE);\nSELECT MAX(t1.rowid) FROM t1 WHERE t1.c0; -- { NULL }",
@@ -4145,7 +4145,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46412",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46436"
         },
-        "oracle": "qp-having",
+        "oracle": "TLP (HAVING)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES(0);\nSELECT t0.c0 FROM t0 GROUP BY t0.c0 HAVING NOT (VARIANCE(0) IS NULL); -- expected: {}, actual: {0}",
@@ -4158,7 +4158,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=e0c2ad1aa8",
             "fix": "https://www.sqlite.org/src/info/101f7dea75a203f1"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 REAL, c1 REAL GENERATED ALWAYS AS (c0));\nINSERT INTO t0(c0) VALUES (1);\nSELECT * FROM t0 GROUP BY c0; -- expected: 1.0|1.0, actual: 1.0|1\nSELECT * FROM t0; -- 1.0|1.0",
@@ -4171,7 +4171,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=1b8d726456",
             "fix": "https://www.sqlite.org/src/info/4a5851893c3d71cc"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "PRAGMA encoding = 'UTF-16';\nCREATE TABLE t0(c0 TEXT);\nINSERT INTO t0(c0) VALUES ('\uc706'), (1);\nSELECT MAX(CASE 1 WHEN 1 THEN t0.c0 END) FROM t0; -- \uc706\nSELECT MAX(t0.c0) FROM t0; -- 1",
@@ -4184,7 +4184,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=fa146dcfe6",
             "fix": "https://www.sqlite.org/docsrc/info/e751b0c91a80dd31"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed (in documentation)",
         "test": "SELECT HEX(MIN(a)) FROM (SELECT CHAR(0, 1) COLLATE NOCASE as a UNION SELECT CHAR(0, 0) as a); -- 0000\nSELECT HEX(MIN(a)) FROM (SELECT CHAR(0, 0) COLLATE NOCASE as a UNION SELECT CHAR(0, 1) as a); -- 0001",
@@ -4209,7 +4209,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15725",
             "fix": "https://github.com/pingcap/tidb/pull/16108"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (2);\nSELECT t0.c0 FROM t0 WHERE (NOT NOT t0.c0) = t0.c0; -- expected: {}, actual: {2}",
@@ -4221,7 +4221,7 @@
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15733"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT, c1 TEXT AS (0.9));\nINSERT INTO t0(c0) VALUES (0);\nSELECT 0 FROM t0 WHERE false UNION SELECT 0 FROM t0 WHERE NOT t0.c1; -- expected: {0}, actual: {}",
@@ -4233,7 +4233,7 @@
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15743"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 BOOL);\nINSERT INTO t0 VALUES (0);\nSELECT * FROM t0 WHERE 1 AND 0.4; -- expected: {0}, actual: {}",
@@ -4285,7 +4285,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15789",
             "fix": "https://github.com/pingcap/tidb/issues/15789"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT, c1 CHAR);\nCREATE INDEX i0 ON t0(c1, c0);\nINSERT INTO t0(c1) VALUES (0);\nSELECT t0.c0 FROM t0 WHERE t0.c1 = CHAR(1 COLLATE 'latin1_bin'); -- expected: {}, actual: {NULL}",
@@ -4324,7 +4324,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15810",
             "fix": "https://github.com/pingcap/tidb/pull/16600"
         },
-        "oracle": "qp-groupby",
+        "oracle": "TLP (GROUP BY)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT, c1 INT);\nCREATE TABLE t1(c0 INT, c1 INT);\nCREATE TABLE t2(c0 INT, c1 INT );\nINSERT INTO t1(c0) VALUES (8, 58), (19, 79);\nINSERT INTO t1 VALUES (22, 19), (91, 69);\nINSERT INTO t0 VALUES (29, 5), (11, NULL);\nINSERT INTO t1 VALUES (NULL, 60), (0, 49), (23, NULL);\nINSERT INTO t1(c1, c0) VALUES (58, 33), (11, 82);\nINSERT INTO t1 VALUES (18, 65), (33, 10), (31, 13), (98, 30);\nINSERT INTO t1(c0, c1) VALUES (NULL, 8), (17, 99), (70, 63), (22, 28);\nINSERT INTO t2(c0, c1) VALUES (90, NULL), (88, 89), (11, 26);\nINSERT INTO t0 VALUES (75, 68);\nINSERT INTO t0(c0, c1) VALUES (54, 19);\nINSERT INTO t1 VALUES (14, 53);\nINSERT INTO t1 VALUES (72, NULL);\nINSERT INTO t0 VALUES (29, 94), (48, 3);\nINSERT INTO t0(c0, c1) VALUES (29, 9), (66, 39);\nINSERT INTO t2 VALUES (92, 75);\nINSERT INTO t2(c1) VALUES (23), (67);\nINSERT INTO t1 VALUES (69, NULL), (NULL, 78);\nINSERT INTO t0(c0) VALUES (71), (59);\nINSERT INTO t2 VALUES (97, 8), (92, 45);\nINSERT INTO t1 VALUES (37, 57), (46, 89);\nINSERT INTO t1(c1) VALUES (51);\nINSERT INTO t0 VALUES (24, 70), (14, 87);\nINSERT INTO t2 VALUES (33, NULL), (77, 68);\nINSERT INTO t1 VALUES (48, 44);\nINSERT INTO t2(c0, c1) VALUES (56, 51), (80, NULL), (NULL, 27);\nINSERT INTO t0(c0) VALUES (88), (90), (58);\nINSERT INTO t2 VALUES (43, 16);\nANALYZE TABLE t1, t2;\nSELECT t1.c0 LIKE t1.c0 FROM t1, t2, t0 GROUP BY t1.c0 LIKE t1.c0; -- non-deterministic result or \"runtime error: index out of range [1] with length 1\"",
@@ -4337,7 +4337,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15812",
             "fix": "https://github.com/pingcap/tidb/pull/15837"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 FLOAT);\nCREATE TABLE t1(c0 FLOAT);\nINSERT INTO t1(c0) VALUES (0);\nINSERT INTO t0(c0) VALUES (0);\nSELECT t1.c0 FROM t1, t0 WHERE t0.c0=-t1.c0; -- expected: {0}, actual: {}",
@@ -4375,7 +4375,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15846",
             "fix": "https://github.com/pingcap/tidb/pull/15894"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(t0 INT UNIQUE);\nCREATE TABLE t1(c0 FLOAT);\nINSERT INTO t1(c0) VALUES (0);\nINSERT INTO t0(t0) VALUES (NULL), (NULL);\nSELECT t1.c0 FROM t1 LEFT JOIN t0 ON 1; -- expected: {0, 0}, actual: {0}",
@@ -4425,7 +4425,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99120"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0(c0 BOOL);\nINSERT INTO t0 VALUES (0);\nSELECT * FROM t0 WHERE 1 AND 0.4; -- expected: {0}, actual: {}",
@@ -4439,7 +4439,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99122"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 DOUBLE);\nINSERT INTO t0 VALUES(0);\nINSERT INTO t1 VALUES('-0');\nSELECT * FROM t0, t1 WHERE t0.c0 = t1.c0; -- expected: {0, -0}, actual: {}",
@@ -4452,7 +4452,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99127"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT UNSIGNED);\nINSERT INTO t0(c0) VALUES(0);\nSELECT * FROM t0 WHERE 0.9 > t0.c0; -- expected: {0}, actual: {}",
@@ -4465,7 +4465,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99130"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT, c1 INT UNIQUE);\nINSERT INTO t0(c1) VALUES(1);\nSELECT * FROM t0 WHERE t0.c1 BETWEEN 0 AND (\"\\n2\"); -- expected: {NULL, 1}, actual: {}",
@@ -4478,7 +4478,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99135"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT UNIQUE);\nINSERT INTO t0(c0) VALUES(0);\nSELECT * FROM t0 WHERE t0.c0 BETWEEN 18446744073561222871 AND 0; -- expected: {0}, actual: {}?",
@@ -4492,7 +4492,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15986",
             "fix": "https://github.com/pingcap/tidb/pull/16014"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (0);\nSELECT t0.c0 FROM t0 WHERE CHAR(204355900); -- expected: {0}, actual: {}",
@@ -4504,7 +4504,7 @@
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15987"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 FLOAT);\nINSERT INTO t0(c0) VALUES (NULL);\nSELECT * FROM t0 WHERE NOT(0 OR t0.c0); -- expected: {}, actual: {NULL}",
@@ -4517,7 +4517,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15988",
             "fix": "https://github.com/pingcap/tidb/pull/16380"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT, c1 TEXT(10), PRIMARY KEY(c0));\nCREATE INDEX i0 ON t0(c1(10));\nINSERT INTO t0(c0, c1) VALUES (0, NULL);\nSELECT * FROM t0 WHERE t0.c1 LIKE '@%' COLLATE 'latin1_bin'; -- expected: {}, actual: {0, NULL}",
@@ -4530,7 +4530,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15990",
             "fix": "https://github.com/pingcap/tidb/pull/16135"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TEXT(10));\nINSERT INTO t0(c0) VALUES (1);\nCREATE INDEX i0 ON t0(c0(10));\nSELECT * FROM t0 WHERE ('a' != t0.c0) AND t0.c0; -- expected: {1}, actual: {}",
@@ -4582,7 +4582,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/15994",
             "fix": "https://github.com/pingcap/tidb/pull/16002"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT AS (1), c1 INT PRIMARY KEY);\nINSERT INTO t0(c1) VALUES (0);\nCREATE INDEX i0 ON t0(c0);\nSELECT /*+ USE_INDEX_MERGE(t0, i0, PRIMARY)*/ t0.c0 FROM t0 WHERE t0.c1 OR t0.c0;\nSELECT t0.c0 FROM t0 WHERE t0.c1 OR t0.c0; -- expected: {1}, actual: {NULL}",
@@ -4594,7 +4594,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99145"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 WHERE 0.9 > t0.c0; -- expected: {0}, actual: {}",
@@ -4606,7 +4606,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99146"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 FLOAT UNIQUE);\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 WHERE t0.c0 BETWEEN 0 AND '1e500'; -- expected: {0}, actual: {}",
@@ -4618,7 +4618,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99149"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 TEXT);\nINSERT INTO t0(c0) VALUES(0);\nCREATE INDEX i0 ON t0(c0(1));\nSELECT * FROM t0 WHERE t0.c0 NOT BETWEEN '\u05a3a' AND NULL; -- expected: {0}, actual: {}",
@@ -4630,7 +4630,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99150"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0(c0 FLOAT UNIQUE);\nINSERT INTO t0(c0) VALUES (296088496), (0), (2080822651);\nSELECT * FROM t0 WHERE t0.c0 NOT IN (622120376, -1.421821436E9, 296088496); -- expected: {0, 296089000, 2080820000}, actual: {0, 296089000}",
@@ -4693,7 +4693,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/16023",
             "fix": "https://github.com/pingcap/tidb/pull/16444"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT);\nINSERT INTO t0(c0) VALUES (NULL);\nSELECT * FROM t1 RIGHT JOIN t0 ON TRUE WHERE CONCAT_WS(t0.c0=t0.c0, 0, NULL) IS NULL; -- expected: {NULL}, actual: {}",
@@ -4706,7 +4706,7 @@
             "bugreport": "https://github.com/pingcap/tidb/issues/16025",
             "fix": "https://github.com/pingcap/tidb/pull/16518"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 NUMERIC PRIMARY KEY);\nINSERT IGNORE INTO t0(c0) VALUES (NULL);\nSELECT * FROM t0 WHERE c0; -- expected: {}, actual: {0}",
@@ -4730,7 +4730,7 @@
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16028"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 DOUBLE UNSIGNED UNIQUE);\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 WHERE t0.c0 = -1; -- expected: {}, actual: {0}",
@@ -4768,7 +4768,7 @@
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46970"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES(-1292691042);\nSELECT t0.c0::SMALLINT FROM t0; -- expected: {6558}, actual: {-1292691042}",
@@ -4794,7 +4794,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/46981",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47036"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE VIEW v0(c0) AS SELECT COUNT_ROWS() FROM t0;\nSELECT * FROM v0 WHERE '' !~ '+'; -- expected: error parsing regexp: missing argument to repetition operator: `+`, actual: {}",
@@ -4808,7 +4808,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47029",
             "fix": "https://github.com/cockroachdb/cockroach/issues/47029"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SET vectorize=on;\nCREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT);\nINSERT INTO t0(c0) VALUES(0);\nINSERT INTO t1(c0) VALUES(NULL);\nCREATE INDEX ON t1(c0) INTERLEAVE IN PARENT t0(c0);\nSELECT * FROM t0 WHERE t0.rowid > 0; -- expected: {}, actual: {0}",
@@ -4845,7 +4845,7 @@
         "links": {
             "bugreport": "https://bugs.mysql.com/bug.php?id=99182"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0(c0 DECIMAL UNIQUE);\nINSERT INTO t0(c0) VALUES(0);\nSELECT * FROM t0 WHERE '' BETWEEN t0.c0 AND t0.c0; -- expected: {0}, actual: {}",
@@ -4896,7 +4896,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47115",
             "fix": "https://github.com/cockroachdb/cockroach/pull/48052"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SET SESSION VECTORIZE=on;\nCREATE TABLE t0 (c0 DECIMAL PRIMARY KEY, c1 INT UNIQUE);\nINSERT INTO t0(c0) VALUES (1819487610);\nSELECT t0.c0 FROM t0 ORDER by t0.c1; -- expected: {1819487610}, actual: {1.81948761E+9}",
@@ -4947,7 +4947,7 @@
             "fix1": "https://github.com/cwida/duckdb/commit/b838c589e26c47c342dd29b890438f5fb9dce4d4",
             "fix2": "https://github.com/cwida/duckdb/commit/ef2286faef94a75d1ed02de0e86b804610da281e"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 WHERE NOT(NULL OR TRUE); -- expected: {}, actual: {1}",
@@ -4960,7 +4960,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/490",
             "fix": "https://github.com/cwida/duckdb/commit/f18ef427cfbe75f76abc40a00937dc1bea675012"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (NULL);\nSELECT * FROM t0 WHERE c0 = c0; -- expected: {}, actual: {NULL}",
@@ -4999,7 +4999,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/495",
             "fix": "https://github.com/cwida/duckdb/commit/7156b358369203ab45fc55eac8605e475c7fdce4"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 NUMERIC UNIQUE);\nINSERT INTO t0(c0) VALUES (1163404482), (0), (488566);\nSELECT * FROM t0 WHERE 0.1 < c0; -- expected: {}, actual: {1163404482.0, 488566.0}",
@@ -5051,7 +5051,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47327",
             "fix": "https://github.com/cockroachdb/cockroach/pull/47483"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 DECIMAL UNIQUE);\nINSERT INTO t0(c0) VALUES(0);\nSELECT t0.c0 FROM t0 WHERE t0.c0 BETWEEN t0.c0 AND INTERVAL '-1'::DECIMAL; -- expected: {}, actual: {0}",
@@ -5090,7 +5090,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/505",
             "fix": "https://github.com/cwida/duckdb/issues/505"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c1 BOOLEAN);\nINSERT INTO t0(c0) VALUES (1);\nSELECT * FROM t0 RIGHT JOIN t1 on true; -- expected: {}, actual: {1|false}",
@@ -5142,7 +5142,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/510",
             "fix": "https://github.com/cwida/duckdb/commit/0ba277225e9748b805dd9bf0270da75ec8db286b"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES (-10);\nSELECT * FROM t0 WHERE t0.c0 NOT SIMILAR TO 0; -- expected: {-10}, actual: {}",
@@ -5168,7 +5168,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/514",
             "fix": "https://github.com/cwida/duckdb/commit/0d29535fe6aefdf2fbe8a7de0775c253f8038a1a"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE UNIQUE INDEX i0 ON t0(c0);\nINSERT INTO t0(c0) VALUES (1);\nINSERT INTO t0(c0) VALUES (1); -- Failed to commit: Constraint: PRIMARY KEY or UNIQUE constraint violated: duplicated key\nSELECT * FROM t0 WHERE t0.c0 = 1; -- expected: {1}, actual: {}",
@@ -5181,7 +5181,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/515",
             "fix": "https://github.com/cwida/duckdb/commit/7e1234d8f414f1e1de4e15a57939594036d74f37"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT8, c1 DOUBLE);\nINSERT INTO t1(c0) VALUES (0);\nINSERT INTO t1(c1, c0) VALUES (1, 1);\nINSERT INTO t0 VALUES (0);\nSELECT * FROM t1 JOIN t0 ON t1.c1 WHERE NOT (t1.c0<<-1); -- expected: {1|1|0}, actual: {}",
@@ -5207,7 +5207,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/517",
             "fix": "https://github.com/cwida/duckdb/commit/d88e21d926e732096081ee8afda03d70310bee2d"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT);\nINSERT INTO t0(c0) VALUES (0);\nINSERT INTO t1(c0) VALUES (0);\nSELECT * FROM t1, t0 WHERE NOT ((t1.c0 AND t0.c0) < 0); -- expected: {0|0}, actual: {}",
@@ -5234,7 +5234,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/521",
             "fix": "https://github.com/cwida/duckdb/commit/e399d40eb76f2fbe97c9e139551171862ab7848d"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT ROUND(0.1, 1000); -- -nan",
@@ -5248,7 +5248,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/522",
             "fix": "https://github.com/cwida/duckdb/pull/541"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT 1e100::real*0; -- -nan",
@@ -5262,7 +5262,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/523",
             "fix": "https://github.com/cwida/duckdb/pull/541"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT SIN(1e1000); -- -nan",
@@ -5275,7 +5275,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/525",
             "fix": "https://github.com/cwida/duckdb/commit/0e5a3c47eb28c8b6b9797c0c7f64e8ed5c322cb6"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 FLOAT);\nINSERT INTO t0(c0) VALUES (1), (0);\nINSERT INTO t1(c0) VALUES (1);\nSELECT t1.c0 FROM t1 JOIN t0 ON t1.c0 IN (t0.c0) WHERE t1.c0<=t0.c0; -- expected: {1.0}, actual: {4.67454452791745e-310}",
@@ -5300,7 +5300,7 @@
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/527"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT);\nINSERT INTO t0 VALUES (0);\nINSERT INTO t1 VALUES (1), (1);\nSELECT t0.c0 FROM t0 JOIN t1 ON t0.c0=(t1.c0 IS NULL) WHERE t0.c0 NOT IN (t1.c0); -- expected: {0, 0}, actual: {1, 1}",
@@ -5313,7 +5313,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/528",
             "fix": "https://github.com/cwida/duckdb/commit/1035a091f6feba4cc1c37bea5dda3d3ccfcacd17"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR);\nINSERT INTO t0(c0) VALUES (0.1);\nSELECT * FROM t0 WHERE REGEXP_MATCHES(t0.c0, '1'); -- expected: {0.1}, actual: {}",
@@ -5365,7 +5365,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/535",
             "fix": "https://github.com/cwida/duckdb/commit/03eafe5d77900714f56f0c6e3d6fb3f0204926cf"
         },
-        "oracle": "qp-having",
+        "oracle": "TLP (HAVING)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 NUMERIC);\nINSERT INTO t0(c0) VALUES (-515965088);\nINSERT INTO t0(c0) VALUES (1), (-5.15965088E8);\nCREATE INDEX i0 ON t0(c0);\nSELECT t0.c0 FROM t0 GROUP BY t0.c0, REVERSE(t0.c0); -- non-deterministic result",
@@ -5378,7 +5378,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/536",
             "fix": "https://github.com/cwida/duckdb/commit/7548d0244bd24cd5da20ec1fdb8f722b39367016"
         },
-        "oracle": "qp-having",
+        "oracle": "TLP (HAVING)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 VARCHAR);\nINSERT INTO t1 VALUES (0.9201898334673894), (0);\nINSERT INTO t0 VALUES (0);\nSELECT * FROM t0, t1 GROUP BY t0.c0, t1.c0 HAVING t1.c0!=MAX(t1.c0) UNION ALL SELECT * FROM t0, t1 GROUP BY t0.c0, t1.c0 HAVING NOT t1.c0>MAX(t1.c0); -- nondeterministic",
@@ -5404,7 +5404,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/538",
             "fix": "https://github.com/cwida/duckdb/commit/faf41956b6363882ef217b81e0c0db9fb7f39970"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BIGINT);\nINSERT INTO t0(c0) VALUES (-1);\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 WHERE t0.c0 AND (t0.c0<<64);-- expected: {}, actual: {-1}",
@@ -5430,7 +5430,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/540",
             "fix": "https://github.com/cwida/duckdb/commit/7945aa5c9e591b715cf16d8ef0dc4c9612f08219"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR);\nINSERT INTO t0 VALUES ('aaaaaaaaaaaa');\nSELECT MAX(agg0) FROM (SELECT MAX(t0.c0) AS agg0 FROM t0) as s0; -- nondeterministic result or crash",
@@ -5443,7 +5443,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/543",
             "fix": "https://github.com/cwida/duckdb/pull/558/commits/fda8813bb208886a310d927f35566a2f74862aeb"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c1 BIGINT);\nINSERT INTO t0(c1) VALUES (2);\nINSERT INTO t0(c1) VALUES (9223372036854775807);\nSELECT SUM(t0.c1) FROM t0; -- expected: {9223372036854776000}, actual: {-9223372036854775807}",
@@ -5506,7 +5506,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/4"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5519,7 +5519,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/5"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5532,7 +5532,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/6"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5545,7 +5545,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/7"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5558,7 +5558,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/8"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5584,7 +5584,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/10"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5610,7 +5610,7 @@
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/16440"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t1(c0 INT);\nINSERT INTO t1(c0) VALUES (NULL);\nSELECT t1.c0 FROM t1 WHERE NOT t1.c0; -- expected: {}, actual: {NULL}",
@@ -5622,7 +5622,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/13"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5687,7 +5687,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/19"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5701,7 +5701,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/560",
             "fix": "https://github.com/cwida/duckdb/commit/db0e6131397d4a09cd2c997fb86a9974b6c356e3"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0 (c0 INT);\nINSERT INTO t0 VALUES (0);\nSELECT SUM(-1) FROM t0; -- expected: {-1}, actual: {1.8446744073709552e+19}",
@@ -5740,7 +5740,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/571",
             "fix": "https://github.com/cwida/duckdb/commit/e913dacbdfc00fa6686a5c470e3deeb1a5893ee0"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (-1);\nSELECT t0.c0 FROM t0 WHERE NOT (0 BETWEEN 0 AND t0.c0::BOOL); -- expected: {}, actual: {-1}",
@@ -5778,7 +5778,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/45"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5791,7 +5791,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/47"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P2",
         "status": "verified",
@@ -5804,7 +5804,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/48"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P2",
         "status": "verified",
@@ -5817,7 +5817,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/49"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5830,7 +5830,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/50"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5895,7 +5895,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/56"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5934,7 +5934,7 @@
         "links": {
             "bugreport": "https://github.com/tidb-challenge-program/bug-hunting-issue/issues/62"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "severity": "P1",
         "status": "verified",
@@ -5974,7 +5974,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/579",
             "fix": "https://github.com/cwida/duckdb/commit/f77519c6fb26fc1df1f503f182525b7af68c59fb"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR, c1 VARCHAR);\nINSERT INTO t0(c0) VALUES(0), ('');\nUPDATE t0 SET c1 = 1;\nSELECT t0.c1 FROM t0 WHERE '' = t0.c0; -- expected: {1}, actual: {''}",
@@ -6000,7 +6000,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/581",
             "fix": "https://github.com/cwida/duckdb/commit/0cb8b09273b37ee9ab0ccfaa677926a0e970c51b"
         },
-        "oracle": "qp-distinct",
+        "oracle": "TLP (DISTINCT)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BOOLEAN);\nINSERT INTO t0 VALUES (NULL), (false);\nSELECT DISTINCT t0.c0 FROM t0; -- expected: {NULL, false}, actual: {NULL, NULL}",
@@ -6013,7 +6013,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=45f4bf4eb4",
             "fix": "https://www.sqlite.org/src/info/ac31edd3eeafcef4"
         },
-        "oracle": "qp-distinct",
+        "oracle": "TLP (DISTINCT)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE VIEW v0(c0) AS SELECT CAST(t0.c0 AS INTEGER) FROM t0;\nINSERT INTO t0(c0) VALUES (0);\nSELECT * FROM t0 LEFT JOIN v0 ON v0.c0 >= '0' WHERE TRUE UNION SELECT 0,0 WHERE 0; -- expected: {0|0}, actual:{0|NULL}",
@@ -6026,7 +6026,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/583",
             "fix": "https://github.com/cwida/duckdb/commit/bc96c1ef70867fc402906739b5133c1674f054cf"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR);\nINSERT INTO t0(c0) VALUES (0);\nUPDATE t0 SET c0=0;\nUPDATE t0 SET c0=true;\nSELECT * FROM t0 WHERE t0.c0 = true; -- expected: {true}, actual: {}",
@@ -6039,7 +6039,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/584",
             "fix": "https://github.com/cwida/duckdb/commit/e8ec15172fab1dd5c0547f4259ed3dc8ce31f8e9"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INTEGER);\nINSERT INTO t0(c0) VALUES (-2);\nSELECT t0.c0 FROM t0 WHERE -1 BETWEEN t0.c0::VARCHAR AND 1; -- expected: {-2}, actual: {}",
@@ -6052,7 +6052,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/585",
             "fix": "https://github.com/cwida/duckdb/commit/dc352a3729f57252a1f6bfa18077fed9c4598a54"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR);\nINSERT INTO t0(c0) VALUES (''), (0);\nSELECT * FROM t0 WHERE t0.c0 = ''; -- expected: {''}, actual: {}",
@@ -6091,7 +6091,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/588",
             "fix": "https://github.com/cwida/duckdb/commit/8a7cf974f7372a66e837b9cfa5d5c3929e1f625f"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (1), (0), (1);\nSELECT t0.rowid FROM t0 WHERE t0.rowid ORDER BY CASE ((t0.c0) ::BOOL) WHEN 1 THEN t0.rowid END; -- expected: {0, 2}, actual: {140671047175328, 2}",
@@ -6117,7 +6117,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/590",
             "fix": "https://github.com/cwida/duckdb/issues/590"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR);\nINSERT INTO t0(c0) VALUES (DATE '2000-01-02');\nSELECT * FROM t0 WHERE DATE '2000-01-01' < t0.c0; -- expected: {2000-01-02}, actual: {}",
@@ -6181,7 +6181,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/602",
             "fix": "https://github.com/cwida/duckdb/pull/601/commits/ef292aa079f4a1c6b477d9eb052220d0d1f30c46"
         },
-        "oracle": "qp-groupby",
+        "oracle": "TLP (GROUP BY)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 VARCHAR COLLATE NOCASE);\nINSERT INTO t0(c0) VALUES ('a'), ('A');\nSELECT t0.c0 FROM t0 GROUP BY t0.c0; -- expected: {'a'} or {'A'}, actual: {'a', 'A'}",
@@ -6207,7 +6207,7 @@
             "bugreport": "https://github.com/cwida/duckdb/issues/609",
             "fix": "https://github.com/cwida/duckdb/commit/7cf32b2983e6b579e4e3ec17cc62673a13eae9ee"
         },
-        "oracle": "qp-aggregate",
+        "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0 VALUES (-1);\nSELECT MIN(CAST(c0 AS BIGINT) << 63) FROM t0; -- expected: {-9223372036854775808}, actual: {NULL}",
@@ -6363,7 +6363,7 @@
             "bugreport": "https://github.com/h2database/h2database/issues/2803",
             "fix": "https://github.com/h2database/h2database/pull/2808"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE T0(c0 BOOL);\nINSERT INTO T0(c0) VALUES (true);\nSELECT * FROM t0 WHERE NOT (c0 != 2 AND c0) -- expected: {}, actual: {TRUE}",
@@ -6375,7 +6375,7 @@
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2807"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE T0(c0 VARCHAR);\nINSERT INTO T0(C0) VALUES ('f');\nSELECT * FROM T0 WHERE NOT(C0 AND C0); -- expected: {'f'}, actual: {}",
@@ -6387,7 +6387,7 @@
         "links": {
             "bugreport": "https://github.com/h2database/h2database/issues/2812"
         },
-        "oracle": "qp-where",
+        "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
         "status": "open",
         "test": "CREATE TABLE T0(c0 VARCHAR UNIQUE);\nINSERT INTO T0(C0) VALUES (-1), (-2);\nSELECT * FROM T0 WHERE c0 >= -1; -- expected: {-1, -2}, actual: {-2}",
