@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """This script provides functionality to validate, manipulate, and
 transform the bugs.json file."""
@@ -7,6 +7,7 @@ import json
 import argparse
 import sys
 import sqlite3
+from jsonschema import validate
 
 parser = argparse.ArgumentParser(prog='bugs.py')
 parser.add_argument('action', choices=['check', 'format', 'export_database'])
@@ -21,7 +22,44 @@ def check():
     """Checks that the JSON file is correctly formatted."""
     formatted_content = json.dumps(parsed_content, indent=4) + '\n'
     correctly_formatted = original_content == formatted_content
-    sys.exit(0 if correctly_formatted else -1)
+    if not correctly_formatted:
+        sys.exit(-1)
+    schema = {
+        "type": "array",
+        "items": {
+            "required": ["date", "dbms", "oracle", "reporter",
+                         "status", "test", "title"],
+            "properties": {
+                "date": {"type": "string"},
+                "dbms": {
+                    "type": "string",
+                    "pattern": r"^(sqlite|mysql|postgres|tdengine|"
+                               r"mariadb|cockroachdb|tidb|duckdb|h2)$",
+                },
+                "links": {
+                    "type": "object"
+                },
+                "oracle": {
+                    "type": "string",
+                    "pattern": r"^(PQS|error|crash|NoREC|hang|"
+                               r"TLP \(aggregate\)|TLP \(HAVING\)|"
+                               r"TLP \(WHERE\)|TLP \(GROUP BY\)|"
+                               r"TLP \(DISTINCT\))$"
+                },
+                "reporter": {"type": "string"},
+                "severity": {"type": "string"},
+                "status": {
+                    "type": "string",
+                    "pattern": r"^(closed \(not a bug\)|fixed|"
+                               r"closed \(duplicate\)|"
+                               r"fixed \(in documentation\)|verified|open)$"
+                },
+                "test": {"type": "string"},
+                "title": {"type": "string"},
+            }
+        }
+    }
+    validate(instance=parsed_content, schema=schema)
 
 
 def format_json():
