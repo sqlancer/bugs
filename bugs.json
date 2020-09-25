@@ -4954,19 +4954,6 @@
         "title": "A comparison column=column unexpectedly evaluates to TRUE for column=NULL"
     },
     {
-        "date": "07/04/2020",
-        "dbms": "duckdb",
-        "links": {
-            "bugreport": "https://github.com/cwida/duckdb/issues/491",
-            "fix": "https://github.com/cwida/duckdb/pull/499/commits/b8a64e13c8c8a0dda3efd276c6f676503bb79052"
-        },
-        "oracle": "manuel",
-        "reporter": "Manuel Rigger",
-        "status": "fixed",
-        "test": "CREATE TABLE t0(c0 INT);\nPRAGMA table_info('t0'); -- expected: {0|c0|INTEGER|false|NULL|false}, actual: {}",
-        "title": "PRAGMA table_info provides no output"
-    },
-    {
         "date": "08/04/2020",
         "dbms": "duckdb",
         "links": {
