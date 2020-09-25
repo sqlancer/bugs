@@ -20,7 +20,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084293.html",
             "fix": "https://www.sqlite.org/src/info/1b1dd4d48cd79a58"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -93,7 +93,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084334.html",
             "fix": "https://www.sqlite.org/src/timeline?c=b043a54c3de54b28"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE test (c0 REAL);\nCREATE INDEX index_0 ON test(c0 COLLATE NOCASE);\nINSERT INTO test(c0) VALUES ('+/');\nSELECT * FROM test WHERE (c0 LIKE '+/'); -- fetches no row",
@@ -174,7 +174,7 @@
             "email": "https://www.mail-archive.com/sqlite-users@mailinglists.sqlite.org/msg115136.html",
             "fix": "https://www.sqlite.org/src/info/c2e439bccc40825e211bf"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -187,7 +187,7 @@
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084409.html"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t1 (c0, c1 REAL, PRIMARY KEY (c1, c0));\nINSERT INTO t1(c1) VALUES (0X7ffffffffffffff);\nSELECT * FROM t1 WHERE c1 IN (SELECT c1 FROM t1);",
@@ -215,7 +215,7 @@
             "fix1": "https://www.sqlite.org/src/info/659c551dcc374a0d",
             "fix2": "https://www.sqlite.org/src/info/3f1c8051648a341d"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "PRAGMA foreign_keys=true;\nCREATE TABLE t0 (c0 UNIQUE, c1 UNIQUE, FOREIGN KEY(c0) REFERENCES t0(c1));\nINSERT OR FAIL INTO t0(c0, c1) VALUES (0, 1);\nINSERT OR FAIL INTO t0(c0, c1) VALUES (0, 2);\nSELECT * FROM t0; -- returns no row",
@@ -230,7 +230,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084460.html",
             "fix": "https://www.sqlite.org/src/info/658b84d7"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -244,7 +244,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084478.html",
             "fix": "https://www.sqlite.org/src/info/740201107ae802c1"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT UNIQUE COLLATE NOCASE);\nINSERT INTO t0(c0) VALUES ('./');\nSELECT * FROM t0 WHERE t0.c0 LIKE './'; -- fetches no rows",
@@ -257,7 +257,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084480.html",
             "fix": "https://www.sqlite.org/src/info/ebe4845cd0ffb96b"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INTEGER PRIMARY KEY);\nINSERT INTO t0(c0) VALUES (1);\nPRAGMA reverse_unordered_selects=true;\nSELECT * FROM t0 WHERE ((t0.c0 > 'a') OR (t0.c0 <= 'a')); -- fetches no row\nSELECT ((t0.c0 > 'a') OR (t0.c0 <= 'a')) FROM t0; -- returns 1",
@@ -286,7 +286,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084497.html",
             "fix": "https://www.sqlite.org/src/info/db9acef14d492121"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT 1e500 >= 1,  CAST(1e500 AS INT) >= CAST(1 AS INT), ROUND(1e500) >= ROUND(1); -- 1|1|0",
@@ -301,7 +301,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084499.html",
             "fix": "https://sqlite.org/src/info/0ba6d709"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -329,7 +329,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084528.html",
             "fix": "https://www.sqlite.org/src/info/f7aadfab3bb8eb8e"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -344,7 +344,7 @@
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084539.html",
             "fix": "https://www.sqlite.org/src/info/bc7d2c1656396bb4"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "PRAGMA reverse_unordered_selects=true;\nCREATE TABLE t1 (c0, c1); CREATE TABLE t2 (c0 INT UNIQUE);\nINSERT INTO t1(c0, c1) VALUES (0, 0), (0, NULL);\nINSERT INTO t2(c0) VALUES (1);\nSELECT 1, NULL INTERSECT SELECT * FROM (SELECT t2.c0, t1.c1 FROM t1, t2 WHERE ((t2.rowid <= 'a')) OR (t1.c0 <= t2.c0) ORDER BY 'a' DESC LIMIT 100); -- no row is fetched",
@@ -357,7 +357,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=3c27b97e31",
             "fix": "https://www.sqlite.org/src/info/14c00b1016ba53ab"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -402,7 +402,7 @@
             "fix1": "https://www.sqlite.org/src/info/1685610e",
             "fix2": "https://www.sqlite.org/src/info/3e1b55f3ab85710e"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Cosmetic",
         "status": "fixed",
@@ -417,7 +417,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d3e7f2ba5b",
             "fix": "https://www.sqlite.org/src/info/99eba69b3a64741c"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -445,7 +445,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=4c2d7639f0",
             "fix": "https://www.sqlite.org/src/info/67a68af5578f08d2"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -459,7 +459,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=e8bedb2a18",
             "fix": "https://www.sqlite.org/src/info/67a68af5578f08d2"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -473,7 +473,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview/dd6bffbfb6e61db9ecc9ea833d586427961ccc9d",
             "fix": "https://www.sqlite.org/src/info/c0c90961b4fa1c11"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -501,7 +501,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b1d8c79314",
             "fix": "https://sqlite.org/src/info/94b58ab059cba977"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -529,7 +529,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=412bba9b22",
             "fix": "https://www.sqlite.org/src/info/57050162294efec9"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -543,7 +543,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview/d60b3cd7cb0bdff8ff39f76c9faf16ba2efa442f",
             "fix": "https://www.sqlite.org/docsrc/info/722f0828b3074e89"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed (in documentation)",
@@ -571,7 +571,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=1819598c09",
             "fix": "https://www.sqlite.org/docsrc/info/e0f700bb6c8142c5"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed (in documentation)",
@@ -585,7 +585,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=57353f8243",
             "fix": "https://www.sqlite.org/src/info/0f748fe58bbbb7ce"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -599,7 +599,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=afdc5a29dc",
             "fix": "https://www.sqlite.org/docsrc/info/7a51b32537ac7e95"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed (in documentation)",
@@ -613,7 +613,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0c620df60b",
             "fix": "https://www.sqlite.org/src/info/614ecb0af4703884"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -627,7 +627,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=4d01eda811",
             "fix": "https://www.sqlite.org/src/info/5c6146b56a75a94f"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -642,7 +642,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview/674385aeba91c774d47736f1aefd259b074dc5d3",
             "fix": "https://www.sqlite.org/src/info/491f0f9bbddb6302"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed",
@@ -656,7 +656,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b148fa6105",
             "fix": "https://www.sqlite.org/docsrc/info/9f887f15e57978df"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Minor",
         "status": "fixed (in documentation)",
@@ -670,7 +670,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ce8717f088",
             "fix": "https://www.sqlite.org/src/info/b4a9e09e60213ccf"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -685,7 +685,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f1580ba1b5",
             "fix": "https://www.sqlite.org/src/info/86fa0087cd1f5c79"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -711,7 +711,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=e1e07ef202",
             "fix": "https://www.sqlite.org/src/info/54110870487f7801"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -787,7 +787,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95900"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES(1);\nSELECT * FROM t0 WHERE 123 != (NOT (NOT 123)); -- expected: row is fetched, actual: row is not fetched",
@@ -800,7 +800,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95908"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TINYINT);\nINSERT INTO t0(c0) VALUES(NULL);\nSELECT * FROM t0 WHERE NOT(t0.c0 <=> 2035382037); -- expected: row is fetched, actual: no row is fetched",
@@ -814,7 +814,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95926"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES(1);\nSELECT * FROM t0 WHERE IF(FALSE, t0.c0, 0.1); -- expected: row is fetched, actual: row is not fetched",
@@ -826,7 +826,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95927"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT FALSE XOR '0.5'; -- expected: 1, actual: 0",
@@ -863,7 +863,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95937"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed (in documentation)",
         "test": "SELECT BENCHMARK(NULL, 1); -- expected: 0, actual: NULL\nSELECT BENCHMARK(-1, 1); -- expected: 0, actual: NULL",
@@ -876,7 +876,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95938"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TEXT);\nINSERT IGNORE INTO t0(c0) VALUES(\"\\n123\");\nSELECT * FROM t0 WHERE COALESCE(t0.c0); -- expected: row is fetched, actual: no row is fetched\nSELECT * FROM t0 WHERE IFNULL(t0.c0, 1); -- expected: row is fetched, actual: no row is fetched",
@@ -889,7 +889,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95942"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TEXT);\nINSERT INTO t0(c0) VALUES(0.9);\nSELECT * FROM t0 WHERE t0.c0; -- expected: row is fetched, actual: row is not fetched",
@@ -902,7 +902,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95954"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 BIGINT UNSIGNED);\nINSERT INTO t0(c0) VALUES(NULL);\nSELECT * FROM t0 WHERE CAST(COALESCE(t0.c0, -1) AS UNSIGNED); -- expected: row is selected, actual: no row is selected\nSELECT * FROM t0 WHERE CAST(IFNULL(t0.c0, -1) AS UNSIGNED); -- expected: row is selected, actual: no row is selected",
@@ -914,7 +914,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95957"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "verified",
         "test": "CREATE TABLE t0(c0 INT);\nINSERT INTO t0(c0) VALUES(-1);\nSELECT t0.c0 IN (1, CAST(t0.c0 AS UNSIGNED)) from t0; -- expected: 0, actual: 1",
@@ -927,7 +927,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95958"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TEXT);\nINSERT INTO t0(c0) VALUES(\"0.5\");\nSELECT * FROM t0 WHERE t0.c0 AND 1; -- expected: 0.5, actual: no row is fetched\nSELECT * FROM t0 WHERE t0.c0 OR 0; -- expected: 0.5, actual: no row is fetched\nSELECT * FROM t0 WHERE t0.c0 XOR 0;  -- expected: 0.5, actual: no row is fetched",
@@ -939,7 +939,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95960"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT '\\n1' & 1; -- expected: 1, actual: 0\nSELECT '\\n1' | 0; -- expected: 1, actual: 0\nSELECT '\\n1' ^ 1; -- expected: 0, actual: 1",
@@ -951,7 +951,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95964"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE TABLE t1(c0 INT) ENGINE = MEMORY;\nINSERT INTO t0(c0) VALUES(0);\nINSERT INTO t1(c0) VALUES(-1);\nSELECT * FROM t0, t1 WHERE (CAST(t1.c0 AS UNSIGNED)) > (IFNULL(\"u\", t0.c0)); -- expected: row is fetched, actual: no row is fetched",
@@ -976,7 +976,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95975"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed (in documentation)",
         "test": "SELECT \"a\" IN (0); -- expected: 0, actual: 1",
@@ -988,7 +988,7 @@
         "links": {
             "bugtracker": "https://bugs.mysql.com/bug.php?id=95983"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT, c1 TEXT);\nINSERT INTO t0(c0, c1) VALUES(-1, \"a\");\nSELECT * FROM t0 WHERE t0.c1 < (t0.c0 & t0.c0) AND t0.c0 = -1; -- expected: fetches row, actual: does not fetch the row",
@@ -1049,7 +1049,7 @@
         "links": {
             "email": "https://bugs.mysql.com/bug.php?id=96012"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 TEXT);\nINSERT INTO t0(c0) VALUES (\"a\");\nSELECT * FROM t0 WHERE GREATEST((-1) & (-1), -t0.c0); -- expected: row is fetched, actual: row is not fetched",
@@ -1086,7 +1086,7 @@
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com",
             "fix": "https://github.com/postgres/postgres/commit/a5be4062f7bf2ae9487c5a31ee337a56425cdc84"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT PRIMARY KEY, c1 INT);\nCREATE TABLE t1(c0 INT) INHERITS (t0);\nINSERT INTO t0(c0, c1) VALUES(0, 0);\nINSERT INTO t1(c0, c1) VALUES(0, 1);\nSELECT c0, c1 FROM t0 GROUP BY c0, c1; -- expected: 0|0 and 0|1, actual: 0|0",
@@ -1150,7 +1150,7 @@
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA7mwhq7Xu9ZsaYOZ6aeodMiomKX0aMm8bbtYE%3DSyqSs_Q%40mail.gmail.com"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "closed (not a bug)",
         "test": "CREATE TABLE t0(c0 CHAR(2));\nINSERT INTO t0(c0) VALUES('a');\nSELECT * FROM t0 WHERE c0 LIKE c0; -- expected: fetches the row, actual: does not fetch the row",
@@ -1351,7 +1351,7 @@
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=18ab5da2c0"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "closed (not a bug)",
@@ -1379,7 +1379,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ccbe5759fb",
             "fix": "https://www.sqlite.org/src/info/6ac0f822450b26c7"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1393,7 +1393,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ced41c7c7d",
             "fix": "https://www.sqlite.org/src/info/a871d69c6de65038"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -1407,7 +1407,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=41866dc373",
             "fix": "https://www.sqlite.org/src/info/faaaae4940b5f4f7"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1422,7 +1422,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=71e183cab6",
             "fix": "https://www.sqlite.org/src/info/d465c3ee"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1436,7 +1436,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d52a29a9e6",
             "fix": "https://sqlite.org/docsrc/info/07b7749da88d54e5"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1452,7 +1452,7 @@
             "fix2": "https://www.sqlite.org/src/info/470ac8d50ce2f7cc",
             "fix3": "https://www.sqlite.org/src/info/e15a0977ddfad3d0"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1466,7 +1466,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=0a5e2c1dcb",
             "fix": "https://www.sqlite.org/src/info/17b3d2218c02a400"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1480,7 +1480,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f8a7060ece",
             "fix": "https://www.sqlite.org/src/info/94085fb3"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1494,7 +1494,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=9080b6227f",
             "fix": "https://www.sqlite.org/src/info/da01ba4fa47c6508"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1535,7 +1535,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=6710d2f7a1",
             "fix": "https://www.sqlite.org/src/info/500c9152daaf11cf"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1549,7 +1549,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=c7a1171907",
             "fix": "https://www.sqlite.org/src/info/43e8b143"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1563,7 +1563,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f043b1130b",
             "fix": "https://www.sqlite.org/src/info/511da081"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1577,7 +1577,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=b86894020e",
             "fix": "https://www.sqlite.org/src/info/d02490a2"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1591,7 +1591,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d9f584e936",
             "fix": "https://www.sqlite.org/src/info/81b9f0f55042777b"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1605,7 +1605,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=ac184eb571",
             "fix": "https://www.sqlite.org/src/info/e62eddbb048cbc2c"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1619,7 +1619,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=7e07a3dbf5",
             "fix": "https://www.sqlite.org/src/info/44578865fa7baf97"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
@@ -1941,7 +1941,7 @@
         "links": {
             "bugtracker": "https://github.com/taosdata/TDengine/issues/591"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "open",
         "test": "CREATE TABLE t0(c0 TIMESTAMP, c1 INT);\nINSERT INTO t0 VALUES(0, 1);\nSELECT * FROM t0 WHERE c1=(c1*1);",
@@ -3976,7 +3976,7 @@
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/45453",
             "fix": "https://github.com/cockroachdb/cockroach/pull/46879"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 INT);\nCREATE VIEW v0(c0) AS SELECT COUNT_ROWS() FROM t0 GROUP BY 0+0;\nSELECT * FROM v0; -- expected: {}, actual: {0}",
@@ -6594,7 +6594,7 @@
             "bugreports": "https://www.sqlite.org/src/tktview?name=f3ff147288",
             "fix": "https://www.sqlite.org/src/info/4236103379df0b3d"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "SELECT (1 IN (2 IS TRUE)); -- expected: {1}, actual: {0}",
@@ -6607,7 +6607,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=be31cf009c",
             "fix": "https://www.sqlite.org/docsrc/info/153857859d220dbd"
         },
-        "oracle": "pqs",
+        "oracle": "PQS",
         "reporter": "Manuel Rigger",
         "status": "fixed (in documentation)",
         "test": "SELECT 1 % '1E1'; -- expected: {1.0}, actual: {0.0}",
