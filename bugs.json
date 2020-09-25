@@ -386,7 +386,7 @@
             "bugtracker": "https://sqlite.org/src/info/787fa716be3a7f650c",
             "fix": "https://sqlite.org/src/info/778b1224a318d013"
         },
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "severity": "Severe",
         "status": "fixed",
@@ -851,7 +851,7 @@
         "date": "23/06/2019",
         "dbms": "mysql",
         "fix_version": "8.0.17",
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "DROP DATABASE IF EXISTS test;\nCREATE DATABASE test;\nUSE test;\nCREATE TABLE t0(c0 INT);\nCREATE INDEX i0 ON t0((t0.c0 || 1));\nINSERT INTO t0(c0) VALUES(1);\nCHECK TABLE t0 FOR UPGRADE; -- results in a segfault when executed with multiple threads",
@@ -1200,7 +1200,7 @@
         "comment": "We received a response that this had already been fixed in commit 2322456.",
         "date": "10/07/2019",
         "dbms": "postgres",
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "-- 16 threads create and drop databases, the other threads execute the following:\nCREATE TABLE t0(c1 integer);\nINSERT INTO t0(c1) VALUES(0), (0), (0), (0), (0);\nBEGIN;\nDELETE FROM t0;\nINSERT INTO t0(c1) VALUES (0);\nANALYZE;",
@@ -1211,7 +1211,7 @@
         "comment": "We received a response that this had already been fixed in commit 2322456.",
         "date": "11/07/2019",
         "dbms": "postgres",
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t0(c0 INTEGER, c1 BIGINT, c2 SERIAL);\nINSERT INTO t0(c1, c0) VALUES(-1709938800, 945157321), (9427841, -1121735885), (-462902431, -1516553180), (-1182718924, 567434112), (77957572, -1630604045);\nINSERT INTO t0(c1) VALUES(1396592526);\nINSERT INTO t0(c2) VALUES(690098393), (1277882261), (1624303238);\nCREATE STATISTICS s0 ON c1, c0 FROM t0;\nCREATE STATISTICS s1 ON c2, c1 FROM t0;\nINSERT INTO t0(c2, c1, c0) VALUES(1047328172, -928052494, -1495150353), (1594411273, -1849045190, -1504843935);\nINSERT INTO t0(c0, c1) VALUES(-2024782141, -1507193801), (307326616, 1000588716);\nINSERT INTO t0(c0) VALUES(-1390942911);\nANALYZE;\nCREATE STATISTICS s2 ON c2, c1 FROM t0;\nANALYZE;\nCREATE STATISTICS s3 ON c0, c1 FROM t0;\nANALYZE;\nCREATE STATISTICS s4 ON c2, c0 FROM t0;\nUPDATE t0 SET c1 = -17924667, c0 = DEFAULT WHERE FALSE;\nCREATE STATISTICS s5 ON c0, c1 FROM t0;\nTRUNCATE TABLE t0;\nCREATE STATISTICS s6 ON c2, c0 FROM t0;\nINSERT INTO t0(c1) VALUES(-1891295280), (337846372), (-376532870), (-1428386312), (815718779);\nINSERT INTO t0(c1, c0, c2) VALUES(-1750298826, -1400767611, 1631979167), (197446074, -2025988029, 965481790);\nINSERT INTO t0(c0, c1, c2) VALUES(-343412265, 1761686185, 478065767), (-1200264761, 1389476944, -848006704);\nCREATE STATISTICS s7 ON c0, c1 FROM t0;\nANALYZE;\nANALYZE;\nBEGIN;\nANALYZE;",
@@ -1224,7 +1224,7 @@
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA40Fe9%3DA3wQ2PHWy8VZg8%3DGpD6dxQXeXVDx6HAhRSPeRA%40mail.gmail.com"
         },
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t0(c0 BOOLEAN, c1 TEXT);\nCREATE STATISTICS s1 ON c0, c1 FROM t0;\nINSERT INTO t0(c0) VALUES (FALSE);\nVACUUM ANALYZE t0;\nSELECT * FROM t0 WHERE t0.c0 OR '' >= t0.c1 COLLATE \"C\"; -- unexpected: segfault",
@@ -1237,7 +1237,7 @@
         "links": {
             "email": "https://www.postgresql.org/message-id/CA%2Bu7OA4XKjVv86MTUHZYzzdQAgPOPJDSuA5HrD8%2BxkNQsnAsAQ%40mail.gmail.com"
         },
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "closed (duplicate)",
         "test": "CREATE TABLE t0(c0 TEXT, c1 TEXT, PRIMARY KEY(c0, c1));\nCREATE TABLE t1(c0 TEXT, c1 TEXT, FOREIGN KEY (c0, c1) REFERENCES t0(c0, c1));\nCREATE STATISTICS s0 ON c0, c1 FROM t0;\nINSERT INTO t0(c1, c0) VALUES('a', 'a'), ('b', 'a'), ('c', 'a'), ('d', 'a'), ('e', 'a'), ('f', 'a');\nANALYZE;\nUPDATE t0 SET c0 = 'b';",
@@ -1521,7 +1521,7 @@
             "bugtracker": "https://www.sqlite.org/src/tktview?name=256741a16b",
             "fix": "https://www.sqlite.org/src/info/4f5b2d938194fab7"
         },
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "severity": "Critical",
         "status": "fixed",
@@ -1836,7 +1836,7 @@
         "comment": "We reported this bug on the security mailing list where it was stated that \"next week it'd have been a security issue [since a new PostgreSQL version would have been released], perhaps, but since v12 isn't formally released yet I don't think we need to treat it as one.",
         "date": "24/09/2019",
         "dbms": "postgres",
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "status": "fixed",
         "test": "CREATE TABLE t0(c0 integer, c1 integer GENERATED ALWAYS AS (t0.c0) STORED);\nCREATE TABLE t1(LIKE t0 INCLUDING DEFAULTS);\nINSERT INTO t1(c0) VALUES(NULL);",
@@ -2861,7 +2861,7 @@
             "bugreport": "https://www.sqlite.org/src/tktview?name=b439bfcfb7",
             "fix": "https://www.sqlite.org/src/info/2401e04730a156aa"
         },
-        "oracle": "segfault",
+        "oracle": "crash",
         "reporter": "Manuel Rigger",
         "severity": "Important",
         "status": "fixed",
