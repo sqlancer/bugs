@@ -33,8 +33,8 @@ def check():
                 "date": {"type": "string"},
                 "dbms": {
                     "type": "string",
-                    "pattern": r"^(sqlite|mysql|postgres|tdengine|"
-                               r"mariadb|cockroachdb|tidb|duckdb|h2)$",
+                    "pattern": r"^(SQLite|MySQL|PostgreSQL|TDEngine|"
+                               r"MariaDB|CockroachDB|TiDB|DuckDB|H2)$",
                 },
                 "links": {
                     "type": "object"
