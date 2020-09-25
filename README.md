@@ -1,7 +1,7 @@
 ![Travis](https://travis-ci.com/sqlancer/bugs.svg?branch=master)
 
 
-This repository stores a list of bugs found by SQLancer with additional metadata.
+This project aims to provide a basis to study (logic) bugs in DBMS. To this end, the repository stores a list of bugs found by SQLancer with additional metadata.
 
 The main file is `bugs.json`. We use JSON as a format, because we expect it to be easy to manually edit, automatically process, and since we can obtain a meaningful diff output.
 
