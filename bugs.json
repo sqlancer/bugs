@@ -1919,7 +1919,7 @@
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
-        "status": "verified",
+        "status": "fixed",
         "test": "CREATE TABLE t0(c0 TIMESTAMP, c1 BINARY(1));\nINSERT INTO t0(c0, c1) VALUES (0, \"-\");",
         "title": "Inserting the \"+\" and \"-\" strings fails"
     },
