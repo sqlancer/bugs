@@ -54,7 +54,7 @@ def check():
                                r"closed \(duplicate\)|"
                                r"fixed \(in documentation\)|verified|open)$"
                 },
-                "test": {"type": "string"},
+                "test": {"type": "array", "items": {"type": "string"}},
                 "title": {"type": "string"},
             }
         }
@@ -127,8 +127,8 @@ def export_database():
                        (bug_entry['dbms'], bug_entry['oracle'],
                         bug_entry['status'],
                         bug_entry['date'],
-                        bug_entry['test'],
-                        bug_entry['test'].split('\n')[-1],
+                        '\n'.join(bug_entry['test']),
+                        bug_entry['test'][-1],
                         severity,
                         links.get('email', None),
                         links.get('bugtracker', None),
@@ -136,7 +136,7 @@ def export_database():
                         bug_entry['reporter']))
         rid = cursor.execute('select last_insert_rowid();').fetchall()[0][0]
         seq = 0
-        for statement in bug_entry['test'].split('\n'):
+        for statement in bug_entry['test']:
             if not (statement.startswith('--') or statement == ''):
                 cursor.execute('INSERT INTO BUG_TEST_CASES'
                                '(id, STATEMENT, POSITION) '
