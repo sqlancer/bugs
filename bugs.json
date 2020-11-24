@@ -63,7 +63,7 @@
         "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084324.html",
-            "fix": "https://www.sqlite.org/src/tktview?name=ae0f637bdd"
+            "fix": "https://www.sqlite.org/src/info/5997d075665faca6"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -124,7 +124,7 @@
         "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084334.html",
-            "fix": "https://www.sqlite.org/src/timeline?c=b043a54c3de54b28"
+            "fix": "https://www.sqlite.org/src/info/b043a54c3de54b28"
         },
         "oracle": "PQS",
         "reporter": "Manuel Rigger",
@@ -159,7 +159,7 @@
         "dbms": "SQLite",
         "links": {
             "email": "http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084350.html",
-            "fix": "https://www.sqlite.org/src/timeline?c=48889530a9de22fe"
+            "fix": "https://www.sqlite.org/src/info/48889530a9de22fe"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -1968,7 +1968,7 @@
         "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=d52a29a9e6",
-            "fix": "https://sqlite.org/docsrc/info/07b7749da88d54e5"
+            "fix": "https://www.sqlite.org/src/info/9c8c1092a8ce80e1"
         },
         "oracle": "PQS",
         "reporter": "Manuel Rigger",
@@ -3052,7 +3052,7 @@
         "dbms": "SQLite",
         "links": {
             "bugtracker": "https://sqlite.org/src/tktview?name=9621dd78a0",
-            "fix": "https://sqlite.org/src/tktview?name=9621dd78a0"
+            "fix": "https://sqlite.org/src/info/361ea81ae8a13e7d"
         },
         "oracle": "crash",
         "reporter": "Manuel Rigger",
@@ -3944,7 +3944,7 @@
         "dbms": "SQLite",
         "links": {
             "bugreport": "https://www.sqlite.org/src/tktview?name=3b84b42943",
-            "fix": "https://www.sqlite.org/src/tktview?name=3b84b42943"
+            "fix": "https://www.sqlite.org/src/info/0271491438ad2a98"
         },
         "oracle": "NoREC",
         "reporter": "Manuel Rigger",
@@ -4812,7 +4812,7 @@
         "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44132",
-            "fix": "https://github.com/cockroachdb/cockroach/issues/44132"
+            "fix": "https://github.com/cockroachdb/cockroach/pull/44728"
         },
         "oracle": "NoREC",
         "reporter": "Manuel Rigger",
@@ -4894,7 +4894,7 @@
         "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44152",
-            "fix": "https://github.com/cockroachdb/cockroach/issues/44152"
+            "fix": "https://github.com/cockroachdb/cockroach/pull/44251"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -5031,7 +5031,7 @@
         "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/44304",
-            "fix": "https://github.com/cockroachdb/cockroach/issues/44304"
+            "fix": "https://github.com/cockroachdb/cockroach/pull/44346"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -5824,7 +5824,7 @@
         "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15789",
-            "fix": "https://github.com/pingcap/tidb/issues/15789"
+            "fix": "https://github.com/pingcap/tidb/pull/15971"
         },
         "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
@@ -6204,7 +6204,7 @@
         "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15991",
-            "fix": "https://github.com/pingcap/tidb/issues/15991"
+            "fix": "https://github.com/pingcap/tidb/pull/16001"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -6238,7 +6238,7 @@
         "dbms": "TiDB",
         "links": {
             "bugreport": "https://github.com/pingcap/tidb/issues/15993",
-            "fix": "https://github.com/pingcap/tidb/issues/15993"
+            "fix": "https://github.com/pingcap/tidb/pull/16005"
         },
         "oracle": "error",
         "reporter": "Manuel Rigger",
@@ -6557,7 +6557,7 @@
         "dbms": "CockroachDB",
         "links": {
             "bugreport": "https://github.com/cockroachdb/cockroach/issues/47029",
-            "fix": "https://github.com/cockroachdb/cockroach/issues/47029"
+            "fix": "https://github.com/cockroachdb/cockroach/pull/47035"
         },
         "oracle": "TLP (aggregate)",
         "reporter": "Manuel Rigger",
@@ -6922,7 +6922,7 @@
         "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/505",
-            "fix": "https://github.com/cwida/duckdb/issues/505"
+            "fix": "https://github.com/cwida/duckdb/commit/1014b562dcd8228e7bdb3f984323034d3f0ae3ca"
         },
         "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
@@ -8287,7 +8287,7 @@
         "dbms": "DuckDB",
         "links": {
             "bugreport": "https://github.com/cwida/duckdb/issues/590",
-            "fix": "https://github.com/cwida/duckdb/issues/590"
+            "fix": "https://github.com/cwida/duckdb/commit/63f420535e327a874a46b77dc75c4518c606439b"
         },
         "oracle": "TLP (WHERE)",
         "reporter": "Manuel Rigger",
