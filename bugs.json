@@ -2767,7 +2767,7 @@
         "test": [
             "CREATE VIRTUAL TABLE vt0 USING fts4(c0, order=DESC);",
             "INSERT INTO vt0(c0) VALUES (0), (0);",
-            "INSERT INTO vt0(vt0) VALUES('integrity-check'); database disk image is malformed"
+            "INSERT INTO vt0(vt0) VALUES('integrity-check'); --database disk image is malformed"
         ],
         "title": "FTS order=DESC results into integrity-check failing"
     },
@@ -2965,7 +2965,7 @@
             "CREATE TRIGGER tr0 AFTER DELETE ON t0 BEGIN DELETE FROM t0; END;",
             "INSERT INTO t0(c2) VALUES(-1572226132);",
             "INSERT INTO t0(c0) VALUES(1), (1);",
-            "REPLACE INTO t0(c0, c1, c2) VALUES(2, 0, 0xffffffffa249bbac) -- unexpected: SEGFAULT"
+            "REPLACE INTO t0(c0, c1, c2) VALUES(2, 0, 0xffffffffa249bbac); -- unexpected: SEGFAULT"
         ],
         "title": "Crash on REPLACE INTO of a table with an AFTER DELETE trigger"
     },
@@ -3001,8 +3001,8 @@
         "test": [
             "PRAGMA temp.recursive_triggers = true;",
             "CREATE TABLE t0(c0, c1 UNIQUE);",
-            "CREATE TRIGGER c DELETE ON t0",
-            "\tBEGIN INSERT INTO t0(c1) VALUES(1);",
+            "CREATE TRIGGER c BEFORE DELETE ON t0;",
+            "BEGIN INSERT INTO t0(c1) VALUES(1);",
             "END;",
             "INSERT INTO t0(c1) VALUES(0);",
             "REPLACE INTO t0(c1) VALUES (0);",
@@ -3065,7 +3065,7 @@
             "REINDEX;",
             "INSERT INTO t0(c2) VALUES (0), (1);",
             "REPLACE INTO t0(c2, c0) VALUES (0, 0), (x'9b', NULL);",
-            "UPDATE t0 SET c2 = 0 -- Segmentation fault"
+            "UPDATE t0 SET c2 = 0; -- Segmentation fault"
         ],
         "title": "Segfault when updating table with generated columns"
     },
@@ -3816,7 +3816,7 @@
         "test": [
             "PRAGMA cache_size = 100000;",
             "PRAGMA foreign_keys = true;",
-            "CREATE TEMP TABLE t0(c0, c1 INTEGER PRIMARY KEY AUTOINCREMENT CHECK (c0), c2 BLOB NOT NULL CHECK (LTRIM(1)) UNIQUE DEFAULT '0000000000000'",
+            "CREATE TEMP TABLE t0(c0, c1 INTEGER PRIMARY KEY AUTOINCREMENT CHECK (c0), c2 BLOB NOT NULL CHECK (LTRIM(1)) UNIQUE DEFAULT '0000000000000');",
             "COLLATE BINARY, c3 BLOB UNIQUE NOT NULL ON CONFLICT ABORT CHECK ((''IN (c0, NULL, c1))) GENERATED ALWAYS AS (1), FOREIGN KEY(c1) REFERENCES t0(c2) ON DELETE CASCADE);",
             "CREATE UNIQUE INDEX i0 ON t0(0, 0, 0);",
             "CREATE UNIQUE INDEX i1 ON t0(0, 0, 0);",
@@ -4175,7 +4175,7 @@
             "CREATE VIRTUAL TABLE vt0 USING fts5(c0);",
             "CREATE TABLE t0(c0);",
             "CREATE VIEW v0(c0) AS SELECT 0 GROUP BY 1;",
-            "SELECT * FROM v0, t0 LEFT JOIN vt0 ON vt0.c0 MATCH 1 WHERE v0.c0 == 0 -- sqlite3.c:143296: constructAutomaticIndex: Assertion `!ExprHasProperty(pExpr, EP_FromJoin) || pExpr->iRightJoinTable!=pSrc->iCursor || pLoop->prereq!=0' failed."
+            "SELECT * FROM v0, t0 LEFT JOIN vt0 ON vt0.c0 MATCH 1 WHERE v0.c0 == 0; -- sqlite3.c:143296: constructAutomaticIndex: Assertion `!ExprHasProperty(pExpr, EP_FromJoin) || pExpr->iRightJoinTable!=pSrc->iCursor || pLoop->prereq!=0' failed."
         ],
         "title": "Debug assertion constructAutomaticIndex: Assertion `!ExprHasProperty(pExpr, EP_FromJoin) || pExpr->iRightJoinTable!=pSrc->iCursor || pLoop->prereq!=0' failed"
     },
@@ -4476,7 +4476,7 @@
         "status": "fixed",
         "test": [
             "CREATE TABLE t0(c0 PRIMARY KEY, c1, c2 UNIQUE) WITHOUT ROWID;",
-            "INSERT OR FAIL INTO t0(c2) VALUES (0), (NULL) ON CONFLICT(c2) DO UPDATE SET c1 = c0 -- sqlite3.c:108474: sqlite3FinishCoding: Assertion `!pParse->isMultiWrite || sqlite3VdbeAssertMayAbort(v, pParse->mayAbort)' failed."
+            "INSERT OR FAIL INTO t0(c2) VALUES (0), (NULL) ON CONFLICT(c2) DO UPDATE SET c1 = c0; -- sqlite3.c:108474: sqlite3FinishCoding: Assertion `!pParse->isMultiWrite || sqlite3VdbeAssertMayAbort(v, pParse->mayAbort)' failed."
         ],
         "title": "Debug assertion sqlite3FinishCoding: Assertion `!pParse->isMultiWrite || sqlite3VdbeAssertMayAbort(v, pParse->mayAbort)' failed"
     },
@@ -4603,7 +4603,7 @@
         "test": [
             "PRAGMA recursive_triggers = true;",
             "CREATE TABLE t0(c0 UNIQUE ON CONFLICT REPLACE, c1, c2);",
-            "CREATE INDEX i0 ON t0(c2",
+            "CREATE INDEX i0 ON t0(c2);",
             "INSERT INTO t0(c0) VALUES (0);",
             "CREATE TRIGGER tr0 DELETE ON t0 BEGIN",
             "UPDATE t0 SET c2 = c0;",
@@ -8617,7 +8617,7 @@
         "test": [
             "CREATE TABLE T0(c0 BOOL);",
             "INSERT INTO T0(c0) VALUES (true);",
-            "SELECT * FROM t0 WHERE NOT (c0 != 2 AND c0) -- expected: {}, actual: {TRUE}"
+            "SELECT * FROM t0 WHERE NOT (c0 != 2 AND c0); -- expected: {}, actual: {TRUE}"
         ],
         "title": "Incorrect result for query and NOT (c0 != -1 AND c0) predicate"
     },
