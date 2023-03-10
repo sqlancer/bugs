@@ -134,10 +134,13 @@ def export_database():
         seq = 0
         for statement in bug_entry['test']:
             if not (statement.startswith('--') or statement == ''):
-                cursor.execute('INSERT INTO BUG_TEST_CASES'
-                               '(id, STATEMENT, POSITION) '
-                               'VALUES(%d, "%s", %d)'
-                               % (rid, statement.replace('"', '""'), seq))
+                statement_replaced = statement.replace('"', '""')
+                command = (
+                    f"INSERT INTO BUG_TEST_CASES"
+                    f"(id, STATEMENT, POSITION)"
+                    f"VALUES({rid}, \"{statement_replaced}\", {seq})"
+                )
+                cursor.execute(command)
                 seq += 1
     conn.commit()
 
