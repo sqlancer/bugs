@@ -13,10 +13,6 @@ parser = argparse.ArgumentParser(prog='bugs.py')
 parser.add_argument('action', choices=['check', 'format', 'export_database'])
 args = parser.parse_args()
 
-f = open("bugs.json", "r")
-original_content = f.read()
-parsed_content = json.loads(original_content)
-
 
 def check():
     """Checks that the JSON file is correctly formatted."""
@@ -69,8 +65,8 @@ def format_json():
                                    sort_keys=True,
                                    separators=(',', ': ')) + '\n'
     f.close()
-    f_w = open("bugs.json", "w")
-    f_w.write(formatted_content)
+    with open("bugs.json", "w", encoding="utf-8") as f_w:
+        f_w.write(formatted_content)
 
 
 def export_database():
@@ -120,8 +116,8 @@ def export_database():
     for bug_entry in parsed_content:
         severity = bug_entry.get('severity', None)
         links = bug_entry.get('links', {})
-        cursor.execute("""INSERT INTO DBMS_BUGS (DBMS, ORACLE, STATUS, DATE, TEST,
-            TRIGGER_BUG_LINE, SEVERITY, URL_EMAIL, URL_BUGTRACKER, URL_FIX,
+        cursor.execute("""INSERT INTO DBMS_BUGS (DBMS, ORACLE, STATUS, DATE,
+        TEST, TRIGGER_BUG_LINE, SEVERITY, URL_EMAIL, URL_BUGTRACKER, URL_FIX,
             REPORTER)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                        (bug_entry['dbms'], bug_entry['oracle'],
@@ -138,13 +134,20 @@ def export_database():
         seq = 0
         for statement in bug_entry['test']:
             if not (statement.startswith('--') or statement == ''):
-                cursor.execute('INSERT INTO BUG_TEST_CASES'
-                               '(id, STATEMENT, POSITION) '
-                               'VALUES(%d, "%s", %d)'
-                               % (rid, statement.replace('"', '""'), seq))
+                statement_replaced = statement.replace('"', '""')
+                command = (
+                    f"INSERT INTO BUG_TEST_CASES"
+                    f"(id, STATEMENT, POSITION)"
+                    f"VALUES({rid}, \"{statement_replaced}\", {seq})"
+                )
+                cursor.execute(command)
                 seq += 1
     conn.commit()
 
+
+with open("bugs.json", "r", encoding="utf-8") as f:
+    original_content = f.read()
+    parsed_content = json.loads(original_content)
 
 action = args.action
 {
