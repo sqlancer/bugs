@@ -2304,7 +2304,7 @@
         "dbms": "SQLite",
         "links": {
             "bugtracker": "https://www.sqlite.org/src/tktview?name=f8f472cbc7",
-            "fix": "https://www.sqlite.org/src/info/dd66134817ecbda0"
+            "fix": "https://www.sqlite.org/src/info/057fb8b1809b8b9c"
         },
         "oracle": "NoREC",
         "reporter": "Manuel Rigger",
